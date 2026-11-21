@@ -10,6 +10,11 @@ WHAT THIS DOES, PLAIN ENGLISH
                          which is the window Google News asks for. Press
                          releases are left out: this file is for reporting.
 
+Story pages (docs/s/, the wire-headline trial) never appear in either file:
+they are noindex and point search engines at the original article. This
+script only reads the top level of docs/, and it also skips any page that
+carries a noindex robots tag, so a noindex page can never be listed.
+
 Held stories never appear in either file. A story is held when it has no
 signed_off_by, or when its embargo time has not arrived (same rule as
 wire.py, imported from it so the two can never disagree).
@@ -59,12 +64,15 @@ def main():
 
     # ---- full sitemap: every real page on disk, minus held ones -----------
     pages = []
+    # Top level of docs/ only: docs/s/ (story pages) is deliberately not read.
     for name in sorted(os.listdir(wire.DOCS)):
         if not name.endswith(".html") or name.startswith("_") or name in held_urls:
             continue
         text = open(os.path.join(wire.DOCS, name), encoding="utf-8", errors="replace").read()
         if re.search(r'http-equiv=["\']?refresh', text, re.I):
             continue                                   # redirect stub, not a page
+        if re.search(r'<meta name="robots" content="[^"]*noindex', text, re.I):
+            continue                                   # noindex page: never in a sitemap
         if name == "index.html":
             loc, freq, pri = wire.SITE + "/", "hourly", "1.0"
         elif name in wire.GENERATED:

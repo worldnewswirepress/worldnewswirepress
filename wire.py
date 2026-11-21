@@ -14,6 +14,10 @@ items into our sections, and rewrites these pages from scratch:
                                        Faith & Culture
   docs/wire.html                       The Wire: every live headline
   docs/feed.xml                        our own stories as RSS
+  docs/s/<slug>.html                   story pages (trial, see STORY_PAGES):
+                                       one page per wire headline on the
+                                       site, with the outlet's own feed
+                                       teaser and a big button out to them
 
 It also refreshes the shared header and footer (world clocks, navigation,
 WORLD BRIEFING ticker, follow band) inside every hand-written page - press
@@ -23,7 +27,10 @@ WNP:FOOTER markers. Everything outside those markers is left alone.
 THE STANDING RULES IT ENFORCES
 ------------------------------
 * Wire cards show another outlet's headline, their own feed photo credited to
-  them, and a link out to their story. Never their article text.
+  them, and a link out to their story. Never their article text. A story
+  page adds only the outlet's own feed teaser (the short summary they
+  publish in their RSS for exactly this use), trimmed, credited, with a
+  link out. We never fetch or copy the article itself.
 * Our own stories come from data/originated.json. A story with no
   signed_off_by is HELD: it appears on no page, no feed, no sitemap.
 * A story whose embargo time is still in the future is HELD the same way.
@@ -44,11 +51,14 @@ HOW TO RUN IT
 Cost: zero. Standard-library Python only, no AI calls, free GitHub Actions.
 """
 
+import hashlib
 import html
 import json
 import os
 import re
+import shutil
 import sys
+import unicodedata
 import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -58,6 +68,20 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.join(ROOT, "docs")
 DATA = os.path.join(ROOT, "data")
 STATUS_LOG = os.path.join(ROOT, "runbook", "wire-feed-status.md")
+
+# ---- STORY PAGES TRIAL ---------------------------------------------------
+# Approved by Terry Bryant, Nov 21 2026, for 15 days (review Dec 6 2026).
+# True:  every wire headline on the site gets its own page on OUR site,
+#        docs/s/<slug>.html, and wire cards open that page. The page shows
+#        the outlet's headline, their photo credited to them, their own
+#        feed teaser, and a big "Read the full story at <outlet>" button.
+#        Story pages are noindex and point search engines (canonical) at
+#        the original article, and they are never in a sitemap or feed.
+# False: THE ONE-LINE ROLLBACK. Cards link straight out exactly as before,
+#        and the next run deletes docs/s/ entirely.
+STORY_PAGES = True
+STORY_DIR = os.path.join(DOCS, "s")
+SUMMARY_MAX = 320             # longest feed teaser we show, in characters
 
 SITE = "https://worldnewswirepress.com"
 NAME = "World Newswire Press"
@@ -73,6 +97,7 @@ WIRE_WINDOW_HOURS = 72        # wire items older than this drop off
 FETCH_TIMEOUT = 20
 MAX_PER_SECTION = 15
 HOME_WIRE_COUNT = 9
+WIRE_PAGE_COUNT = 120         # headlines on The Wire page
 TICKER_WIRE_COUNT = 12
 USER_AGENT = ("WorldNewswirePressBot/1.0 (+https://worldnewswirepress.com; "
               "RSS headline aggregation with attribution and outbound links)")
@@ -232,6 +257,51 @@ def strip_tags(s, limit=400):
     return s[:limit]
 
 
+# Boilerplate some feeds tack onto their teaser. It is not part of the summary.
+TEASER_JUNK = [
+    re.compile(r"\s*The post .{0,300}? appeared first on .{0,120}$", re.I | re.S),
+    re.compile(r"\s*(Continue reading|Read more|Read the full (story|article)|Keep reading)"
+               r"\s*(\.\.\.|\u2026|&hellip;)?\s*$", re.I),
+    re.compile(r"\s*(\[\u2026\]|\[\.\.\.\]|\(more\u2026\)|\[more\])\s*$", re.I),
+]
+
+
+def trim_teaser(text, limit=SUMMARY_MAX):
+    """Cut a teaser to at most about `limit` characters, at the end of a
+    sentence if one falls in the second half, otherwise at a word break,
+    and mark the cut with an ellipsis."""
+    if len(text) <= limit:
+        return text
+    cut = text[:limit + 1]
+    ends = [m.end() for m in re.finditer(r"[.!?][\u2019\u201d\"')]?(?=\s)", cut)]
+    ends = [e for e in ends if e >= limit * 0.5]
+    if ends:
+        return cut[:ends[-1]].rstrip() + " \u2026"
+    cut = cut[:limit]
+    if " " in cut:
+        cut = cut[:cut.rfind(" ")]
+    return cut.rstrip(" ,;:-\u2013\u2014") + "\u2026"
+
+
+def clean_summary(raw, title=""):
+    """The outlet's own feed teaser (RSS description / Atom summary) as plain
+    text: tags stripped, feed boilerplate removed, trimmed. Never the article
+    body: if a feed stuffs the whole article into its description, only the
+    first ~320 characters survive. Empty string when there is nothing useful."""
+    if not raw:
+        return ""
+    if "&lt;" in raw:                    # HTML that was escaped once more
+        raw = html.unescape(raw)
+    text = strip_tags(raw, 100000)
+    for junk in TEASER_JUNK:
+        text = junk.sub("", text).strip()
+    if len(text) < 25:
+        return ""
+    if title and text.lower().rstrip(".") == title.lower().rstrip("."):
+        return ""                        # a repeat of the headline adds nothing
+    return trim_teaser(text)
+
+
 def parse_date(block):
     raw = (_tag(block, "pubDate") or _tag(block, "dc:date")
            or _tag(block, "published") or _tag(block, "updated"))
@@ -265,12 +335,15 @@ def parse_feed(text, feed):
         published = parse_date(block)
         if not title or not link.startswith("http") or published is None:
             continue      # no guessing: an item we cannot date, we do not run
-        # The summary is used ONLY for routing by place name. It is never shown.
-        hint = strip_tags(_tag(block, "description") or _tag(block, "summary"))
+        raw_summary = _tag(block, "description") or _tag(block, "summary")
+        # The hint is used ONLY for routing by place name.
+        hint = strip_tags(raw_summary)
         items.append({
             "title": title, "link": link, "published": published.isoformat(),
             "image": extract_image(block), "source": feed["name"],
             "section": route(feed.get("section", "world"), title + " " + hint),
+            # The outlet's own teaser, shown only on our story page, credited.
+            "summary": clean_summary(raw_summary, title),
         })
     return items
 
@@ -377,7 +450,12 @@ FONTS = ("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..
 
 
 def head_html(title, description, path, image="img/share-1200x630.jpg", og_type="website",
-              ld=None, robots="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"):
+              ld=None, robots="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+              canonical=None, base=None):
+    """canonical: the address search engines should credit (story pages give
+    the outlet's original article). base: for pages one folder down (docs/s/),
+    "../" makes every relative link on the page resolve from docs/, so the
+    shared header, footer and stylesheet work unchanged."""
     url = SITE + "/" + ("" if path == "index.html" else path)
     img = image if image.startswith("http") else SITE + "/" + image
     ld_html = ""
@@ -388,11 +466,11 @@ def head_html(title, description, path, image="img/share-1200x630.jpg", og_type=
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+{base}<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{t}</title>
 <meta name="description" content="{d}">
 <meta name="robots" content="{robots}">
-<link rel="canonical" href="{url}">
+<link rel="canonical" href="{canon}">
 <meta property="og:site_name" content="{name}">
 <meta property="og:type" content="{ogt}">
 <meta property="og:title" content="{t}">
@@ -414,7 +492,8 @@ def head_html(title, description, path, image="img/share-1200x630.jpg", og_type=
 <link rel="stylesheet" href="assets/site.css">
 {ld}</head>
 """.format(t=esc(title), d=esc(description), url=url, name=NAME, ogt=og_type, img=img,
-           site=SITE, fonts=FONTS, ld=ld_html, robots=robots)
+           site=SITE, fonts=FONTS, ld=ld_html, robots=robots, canon=esc(canonical or url),
+           base=('<base href="%s">\n' % base) if base else "")
 
 
 def clocks_html():
@@ -576,6 +655,27 @@ def ours_card(a):
                      date=nice_date(a), by=esc(a.get("byline_short", "World Desk")))
 
 
+def story_slug(it):
+    """docs/s/<slug>.html for a wire item: a short readable title plus the
+    first 8 characters of a fingerprint (hash) of the item's link. The same
+    link always gives the same fingerprint, so the page keeps its address
+    from one hourly run to the next, and two items with the same headline
+    never collide."""
+    t = unicodedata.normalize("NFKD", it["title"]).encode("ascii", "ignore").decode().lower()
+    base = ""
+    for w in re.findall(r"[a-z0-9]+", t):
+        if len(base) + len(w) + 1 > 60:
+            break
+        base = (base + "-" + w) if base else w
+    return (base or "story") + "-" + hashlib.sha1(it["link"].encode("utf-8")).hexdigest()[:8]
+
+
+def story_href(it):
+    """Relative to docs/. Story pages carry <base href="../">, so the same
+    href works on the homepage and on another story page."""
+    return "s/%s.html" % story_slug(it)
+
+
 def wire_card(it, i, now):
     if it.get("image"):
         shot = ('<img src="%s" alt="" loading="lazy" referrerpolicy="no-referrer">'
@@ -583,14 +683,23 @@ def wire_card(it, i, now):
     else:
         shot = '<span class="well" style="background:%s">%s</span>' % (
             GRADIENTS[i % len(GRADIENTS)], esc(it["source"]))
+    if STORY_PAGES:
+        # Headline and photo open our story page (same tab); the small
+        # secondary link still goes straight to the outlet in a new tab.
+        href, attrs = story_href(it), ""
+        out = '<a class="out" href="%s" rel="noopener" target="_blank">Read at %s &#8599;</a>' % (
+            esc(it["link"]), esc(outlet(it)))
+    else:
+        href, attrs = it["link"], ' rel="noopener" target="_blank"'
+        out = '<span class="out">Read at %s &#8599;</span>' % esc(it["source"])
     return """<article class="card wire">
-<a class="shot" href="{l}" rel="noopener" target="_blank">{shot}</a>
+<a class="shot" href="{l}"{a}>{shot}</a>
 <div class="body"><span class="src">{src}</span>
-<h3><a href="{l}" rel="noopener" target="_blank">{t}</a></h3>
-<span class="meta">{ago} &middot; <span class="out">Read at {src} &#8599;</span></span>
+<h3><a href="{l}"{a}>{t}</a></h3>
+<span class="meta">{ago} &middot; {out}</span>
 </div>
-</article>""".format(l=esc(it["link"]), shot=shot, src=esc(it["source"]), t=esc(it["title"]),
-                     ago=ago(it["published"], now))
+</article>""".format(l=esc(href), a=attrs, shot=shot, src=esc(it["source"]), t=esc(it["title"]),
+                     ago=ago(it["published"], now), out=out)
 
 
 def refresh_note(feed_count):
@@ -734,10 +843,13 @@ def build_wire(wire, feeds, now, ticker, status):
     ok = {s[0]["name"] for s in status if s[1] == "ok"}
     body = ["""<div class="page" style="max-width:1100px"><span class="kicker">Live headlines</span>
 <h1>The Wire</h1>
-<p class="lede">Every headline from the world&rsquo;s newsrooms that we follow, newest first. Each links to the outlet that published it, with that outlet&rsquo;s own photo credited to them. We never republish their articles.</p>"""]
+<p class="lede">Every headline from the world&rsquo;s newsrooms that we follow, newest first. %s We never republish their articles.</p>""" % (
+        "Each opens a short page with the outlet&rsquo;s own summary, their photo credited to them, "
+        "and a button to read the full story at the outlet that published it." if STORY_PAGES else
+        "Each links to the outlet that published it, with that outlet&rsquo;s own photo credited to them.")]
     if wire:
         body.append('<div class="grid" style="margin-top:26px">%s</div>' % "".join(
-            wire_card(it, i, now) for i, it in enumerate(wire[:120])))
+            wire_card(it, i, now) for i, it in enumerate(wire[:WIRE_PAGE_COUNT])))
     else:
         body.append('<div style="margin-top:22px">%s</div>' % refresh_note(len(feeds)))
     groups = {}
@@ -793,6 +905,241 @@ def build_rss(ours, now):
 </channel>
 </rss>
 """.format(n=NAME, s=SITE, tag=TAGLINE, b=format_datetime(now), items="\n".join(items))
+
+
+# --------------------------------------------------------------------------
+# story pages (trial): docs/s/<slug>.html, one per wire headline on the site
+# --------------------------------------------------------------------------
+
+try:
+    from zoneinfo import ZoneInfo
+    PACIFIC = ZoneInfo("America/Los_Angeles")
+except Exception:                     # no time zone database: fall back to UTC
+    PACIFIC = None
+
+# Words too common to tell two stories apart. Matching on what is left
+# ("cop31", "antalya", "fossil") is what links stories about the same event.
+STOPWORDS = set("""
+a about above after again against ago all also am amid an and any are as at back be been before
+being below between both but by can could did do does doing down during each else ever few for
+from further get gets got had has have having he her here hers him his how i if in into is it its
+just last least like live made make many may me more most much must my near new news no nor not
+now of off on once one only or other our out over own per said same say says see set she should
+since so some still such than that the their them then there these they this those through to
+too two under until up upon us very via was watch we week were what when where which while who
+whom why will with would year years yet you your video videos update updates latest first world
+report reports amid after against week day days today told calls call new big top back show
+dies died dead aged claim claims meet meets make makes take takes hit hits face faces amid
+""".split())
+
+
+def tokens(text):
+    """The significant words in a headline: lower case, no punctuation,
+    possessives dropped, stopwords and very short words removed, and a
+    plural 's' trimmed so 'talks' matches 'talk'."""
+    text = unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode().lower()
+    out = set()
+    for w in re.findall(r"[a-z0-9]+(?:'[a-z]+)?", text):
+        w = re.sub(r"'s?$", "", w)
+        if len(w) >= 3 and w not in STOPWORDS and not w.isdigit():
+            if len(w) > 4 and w.endswith("s") and not w.endswith("ss"):
+                w = w[:-1]
+            out.add(w)
+    return out
+
+
+def overlap(a, b):
+    """How many significant words two headlines share. A word with a digit
+    in it (COP31, G20, F1) names one specific event, so it counts double."""
+    return sum(2 if any(ch.isdigit() for ch in w) else 1 for w in a & b)
+
+
+def pacific_time(iso):
+    """'Nov 21, 7:52 AM PT' (Terry's home time). Absolute, not 'Today', so the
+    page is never wrong even if a run is missed."""
+    dt = datetime.fromisoformat(iso)
+    zone = "PT"
+    if PACIFIC is not None:
+        dt = dt.astimezone(PACIFIC)
+    else:
+        dt, zone = dt.astimezone(timezone.utc), "UTC"
+    hour = dt.strftime("%I").lstrip("0") or "12"
+    return "%s %d, %s:%s %s %s" % (dt.strftime("%b"), dt.day, hour, dt.strftime("%M"),
+                                   dt.strftime("%p"), zone)
+
+
+def shown_wire(wire):
+    """Every wire item that appears on a card somewhere on the site: The Wire
+    page (top WIRE_PAGE_COUNT) plus each section page (top MAX_PER_SECTION).
+    The homepage and the ticker only use items already inside those sets.
+    Newest first, no duplicates."""
+    keep = {it["link"] for it in wire[:WIRE_PAGE_COUNT]}
+    for slug in SECTION:
+        keep.update(it["link"] for it in [w for w in wire if w["section"] == slug][:MAX_PER_SECTION])
+    return [it for it in wire if it["link"] in keep]
+
+
+def our_coverage(it, ours):
+    """The World Desk story that shares the most significant words with the
+    headline and its teaser (at least two, see overlap); if none does, our
+    latest story, so the reader always meets our own journalism."""
+    stories = [a for a in ours if a.get("kind") != "release"] or list(ours)
+    if not stories:
+        return None
+    want = tokens(it["title"] + " " + it.get("summary", ""))
+    best, best_n = stories[0], 0
+    for a in stories:
+        n = overlap(want, tokens(" ".join([a["title"], a.get("dek", ""), a.get("tag", "")])))
+        if n >= 2 and n > best_n:
+            best, best_n = a, n
+    return best
+
+
+def related(it, pool, toks, limit=5):
+    """'More on this story': other headlines sharing at least two significant
+    words with this one (see overlap), best match first. None found: the latest headlines
+    from the same section instead, under an honest heading."""
+    mine = toks[it["link"]]
+    scored = []
+    for other in pool:
+        if other["link"] == it["link"] or other["title"].strip().lower() == it["title"].strip().lower():
+            continue
+        n = overlap(mine, toks[other["link"]])
+        if n >= 2:
+            scored.append((n, other["published"], other))
+    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    if scored:
+        return "More on this story", [o for _, _, o in scored[:limit]]
+    same = [o for o in pool if o["section"] == it["section"] and o["link"] != it["link"]][:limit]
+    label = SECTION[it["section"]][1] if it["section"] in SECTION else None
+    return ("More from %s on the wire" % label if label else "Latest on the wire"), same
+
+
+def outlet(it):
+    """'France 24: World' -> 'France 24'. Feed names carry our section after
+    a colon; the reader only needs the outlet."""
+    return it["source"].split(":")[0].strip() or it["source"]
+
+
+def story_socials():
+    links = []
+    if INSTAGRAM:
+        links.append('<a class="f" href="%s" target="_blank" rel="noopener">Instagram</a>' % INSTAGRAM)
+    if FACEBOOK:
+        links.append('<a class="f" href="%s" target="_blank" rel="noopener">Facebook</a>' % FACEBOOK)
+    if YOUTUBE:
+        links.append('<a class="f" href="%s" target="_blank" rel="noopener">YouTube</a>' % YOUTUBE)
+    links.append('<a class="f" href="tips.html">Send a tip</a>')
+    return "".join(links)
+
+
+def build_story(it, ours, pool, toks, now, ticker):
+    slug = story_slug(it)
+    src, link = esc(outlet(it)), esc(it["link"])
+    sec = it["section"] if it["section"] in SECTION else None
+    crumb = '<a href="index.html">World</a> &rsaquo; '
+    if sec:
+        crumb += '<a href="%s.html">%s</a> &rsaquo; ' % (sec, esc(SECTION[sec][1]))
+    crumb += "On the wire"
+    if it.get("image"):
+        fig = ('<figure class="sp-fig"><img src="%s" alt="" referrerpolicy="no-referrer" fetchpriority="high" onerror="this.style.visibility=\'hidden\'">'
+               '<figcaption>Photo: %s</figcaption></figure>' % (esc(it["image"]), src))
+    else:
+        fig = '<div class="sp-well" role="img" aria-label="%s"><span>%s</span></div>' % (src, src)
+    summary = it.get("summary", "")
+    brief = ('<div class="sp-brief"><h2>The short version, from %s</h2><p>%s</p></div>' % (src, esc(summary))
+             if summary else "")
+    ourcov = ""
+    a = our_coverage(it, ours)
+    if a:
+        ourcov = """<h3 class="sec">Our coverage</h3>
+<a class="sp-ours" href="{u}"><img src="{img}" alt="{alt}" loading="lazy"><div><span class="sp-k"><b>World Desk</b></span><div class="t">{t}</div><div class="d">{d}</div></div></a>""".format(
+            u=esc(a["url"]), img=esc(a["image"]), alt=esc(a.get("image_alt", "")),
+            t=esc(a["title"]), d=esc(a.get("dek", "")))
+    head, more = related(it, pool, toks)
+    more_html = ""
+    if more:
+        more_html = '<h3 class="sec">%s</h3><ul class="sp-more">%s</ul>' % (esc(head), "".join(
+            '<li><a class="m" href="{h}"><span class="hs">{s}</span><span class="ht">{t}</span></a>'
+            '<span class="hm">{w} &middot; <a href="{l}" target="_blank" rel="noopener">Read at {s} &#8599;</a></span></li>'.format(
+                h=esc(story_href(o)), s=esc(outlet(o)), t=esc(o["title"]),
+                w=pacific_time(o["published"]), l=esc(o["link"])) for o in more))
+    stories = [x for x in ours if x.get("kind") != "release"] or list(ours)
+    most = "".join('<li><a href="%s">%s</a></li>' % (esc(x["url"]), esc(x["title"])) for x in stories[:3])
+    side_most = ('<div class="box"><h4>Most read on World Newswire Press</h4><ol>%s</ol></div>' % most
+                 if most else "")
+    body = """<div class="sp">
+<article>
+<div class="sp-crumb">{crumb}</div>
+<span class="sp-k"><b>On the wire</b> {src} &middot; {when}</span>
+<h1>{t}</h1>
+{fig}
+{brief}
+<div class="sp-cta"><a class="sp-btn" href="{link}" target="_blank" rel="noopener">Read the full story at {src} &#8599;</a><span class="sp-note">Opens in a new tab. World Newswire Press stays open here.</span></div>
+{ourcov}
+{more}
+</article>
+<aside class="sp-side">
+{most}
+<div class="sp-ad">ADVERTISEMENT<br>(sponsor space)</div>
+<div class="box sp-join"><h4>The world, every day</h4><p>Follow World Newswire Press for the day&rsquo;s biggest stories from every region.</p>
+{socials}</div>
+</aside>
+</div>""".format(crumb=crumb, src=src, when=pacific_time(it["published"]), t=esc(it["title"]),
+                 fig=fig, brief=brief, link=link, ourcov=ourcov, more=more_html, most=side_most,
+                 socials=story_socials())
+    desc = summary or "%s: a headline from %s on the World Newswire Press wire." % (it["title"], outlet(it))
+    out = page("%s | %s on World Newswire Press" % (it["title"], outlet(it)), desc,
+               "s/%s.html" % slug, sec or "world", body, now, ticker,
+               robots="noindex,follow", canonical=it["link"], base="../")
+    # With <base href="../"> a bare "#main" would point at the homepage.
+    return out.replace('href="#main"', 'href="s/%s.html#main"' % slug, 1)
+
+
+MAIN_RE = re.compile(r'<main id="main">.*</main>', re.S)
+
+
+def write_story_pages(wire, ours, now, ticker, dry_run):
+    """Writes docs/s/<slug>.html for every wire item shown on the site and
+    deletes the ones whose item has left the wire, so the folder never grows
+    without end. A page whose story content has not changed is left alone
+    (only its header clock and ticker would differ), which keeps the hourly
+    commit small. With STORY_PAGES off, the folder is removed.
+    Returns (pages live, written this run, removed this run)."""
+    if not STORY_PAGES:
+        n = len(os.listdir(STORY_DIR)) if os.path.isdir(STORY_DIR) else 0
+        if n and not dry_run:
+            shutil.rmtree(STORY_DIR)
+        return 0, 0, n
+    pool = shown_wire(wire)
+    toks = {it["link"]: tokens(it["title"]) for it in pool}
+    if not dry_run:
+        os.makedirs(STORY_DIR, exist_ok=True)
+    want, written = set(), 0
+    for it in pool:
+        name = story_slug(it) + ".html"
+        want.add(name)
+        new = build_story(it, ours, pool, toks, now, ticker)
+        path = os.path.join(STORY_DIR, name)
+        try:
+            old = open(path, encoding="utf-8").read()
+        except OSError:
+            old = ""
+        m_old, m_new = MAIN_RE.search(old), MAIN_RE.search(new)
+        if m_old and m_new and m_old.group(0) == m_new.group(0):
+            continue
+        written += 1
+        if not dry_run:
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(new)
+    removed = 0
+    if os.path.isdir(STORY_DIR):
+        for name in os.listdir(STORY_DIR):
+            if name not in want:
+                removed += 1
+                if not dry_run:
+                    os.remove(os.path.join(STORY_DIR, name))
+    return len(want), written, removed
 
 
 # --------------------------------------------------------------------------
@@ -873,13 +1220,17 @@ def write(path, text, dry_run):
         f.write(text)
 
 
-def write_status_log(status, now, kept, held):
+def write_status_log(status, now, kept, held, stories=None):
     ok = sum(1 for s in status if s[1] == "ok")
     lines = ["# Wire feed status", "",
              "Rewritten by wire.py on every run. Plain English: which feeds answered on the latest run, "
              "which were dropped and why, and which of our stories are being held.", "",
              "Latest run: %s UTC. Feeds answering: %d of %d. Wire items on the site: %d." % (
                  now.strftime("%Y-%m-%d %H:%M"), ok, len(status), kept), "",
+             ("Story pages (trial, STORY_PAGES = True): %d live in docs/s/ "
+              "(%d written or updated this run, %d removed because their headline left the wire)."
+              % stories if STORY_PAGES and stories else
+              "Story pages: off (STORY_PAGES = False). Wire cards link straight to the outlets."), "",
              "| Feed | Section | Result | Items | With photo |", "|---|---|---|---|---|"]
     for feed, state, note, n, photos in status:
         lines.append("| %s | %s | %s | %d | %d |" % (
@@ -935,10 +1286,13 @@ def main():
     write("feed.xml", build_rss(ours, now), dry_run)
     n = sync_chrome(now, ticker, dry_run, ours)
     print("hand-written pages refreshed: %d" % n)
+    stories = write_story_pages(wire, ours, now, ticker, dry_run)
+    print("story pages: %d live | %d written | %d removed%s"
+          % (stories + ("" if STORY_PAGES else " (STORY_PAGES is off)",)))
     with open(cache_path, "w", encoding="utf-8") as f:
         json.dump({"_note": "Last good wire items, so a run where every feed fails does not blank the site. "
                             "Rewritten by wire.py every run.", "items": wire}, f, indent=1)
-    write_status_log(status, now, len(wire), held)
+    write_status_log(status, now, len(wire), held, stories)
 
 
 if __name__ == "__main__":
