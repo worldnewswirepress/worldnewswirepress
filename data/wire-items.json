@@ -2,6 +2,375 @@
  "_note": "Last good wire items, so a run where every feed fails does not blank the site. Rewritten by wire.py every run.",
  "items": [
   {
+   "title": "With the rise of online shopping, rural main streets are changing",
+   "link": "https://www.abc.net.au/news/2026-11-22/longreach-main-street-evolution/107408812",
+   "published": "2026-11-21T22:06:24+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/9dc25c659a360d1eede3a42b4acb6e79?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "As Longreach locals watch the town's main street pivot towards a growing government and legal sector, some researchers say there is opportunity in buildings left empty by the digital sales transition."
+  },
+  {
+   "title": "Croatians demand justice over psychiatric hospital death after brutal video surfaces",
+   "link": "https://www.scmp.com/news/world/europe/article/3375351/croatians-demand-justice-over-psychiatric-hospital-death-after-brutal-video-surfaces",
+   "published": "2026-11-21T22:05:10+00:00",
+   "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/22/401269c0-aab7-4e98-994e-1f197aae9698_1c24ab6a.jpg?itok=vzDCM8da&v=1795298697",
+   "source": "South China Morning Post: World",
+   "section": "world",
+   "summary": "Thousands gathered in Croatia\u2019s capital on \u2060Saturday evening to \u2060protest over the death \u2060of 32-year-old Kristian Josip Peris in a psychiatric hospital, demanding accountability for those responsible and better regulation of treatments in hospitals. \u2026"
+  },
+  {
+   "title": "Bahrain says Iranian attack hits industrial facility",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss",
+   "published": "2026-11-21T22:02:03+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "middle-east",
+   "summary": ""
+  },
+  {
+   "title": "What did Xi Jinping get from the bear hug with Trump at the Shenzhen summit?",
+   "link": "https://www.npr.org/2026/11/21/nx-s1-6048741/what-did-xi-jinping-get-from-the-bear-hug-with-trump-at-the-shenzhen-summit",
+   "published": "2026-11-21T22:01:42+00:00",
+   "image": "",
+   "source": "NPR: World",
+   "section": "asia-pacific",
+   "summary": "NPR's Rob Schmitz speaks with Robert Daly, director of the program on US China relations at University of Maryland's School of Public Policy, about President Trump's trip to China this week."
+  },
+  {
+   "title": "Highlights and challenges from covering an historic month in South America",
+   "link": "https://www.npr.org/2026/11/21/nx-s1-6044647/highlights-and-challenges-from-covering-an-historic-month-in-south-america",
+   "published": "2026-11-21T22:01:35+00:00",
+   "image": "",
+   "source": "NPR: World",
+   "section": "americas",
+   "summary": "NPR's South America Correspondent discusses her work covering an historic election upset and a papal visit."
+  },
+  {
+   "title": "A grieving family in Lebanon returns to their village",
+   "link": "https://www.npr.org/2026/11/21/nx-s1-6012085/a-grieving-family-in-lebanon-returns-to-their-village",
+   "published": "2026-11-21T22:01:32+00:00",
+   "image": "",
+   "source": "NPR: World",
+   "section": "middle-east",
+   "summary": "In Southern Lebanon, the Army is taking over after Israeli forces withdraw. One grieving family returns to their village to find almost everything in their house destroyed."
+  },
+  {
+   "title": "Lock of former US President George Washington's hair sells for $4,000",
+   "link": "https://www.bbc.co.uk/news/articles/cwe9k23dpz0do?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-21T22:01:19+00:00",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5138/live/c4d4d0c0-e5ec-11f1-ad4d-5dd9d517a6dd.jpg",
+   "source": "BBC News: World",
+   "section": "americas",
+   "summary": "The hair was given as a sign of friendship shortly before Washington's death in 1799, according to a descendent of its former owner."
+  },
+  {
+   "title": "Over 10k PG medical seats in blocked category; govt may review float system",
+   "link": "https://timesofindia.indiatimes.com/india/over-10k-postgraduate-medical-seats-in-blocked-category-govt-may-review-float-system/articleshow/136063107.cms",
+   "published": "2026-11-21T21:58:17+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Kaitlan Collins Notes \u2018Real Time\u2019 Absence Was Due To White House Press Conference",
+   "link": "https://deadline.com/2026/11/kaitlan-collins-real-time-absence-white-house-press-conference-1237231015/",
+   "published": "2026-11-21T21:54:04+00:00",
+   "image": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-2295827851.jpg",
+   "source": "Deadline",
+   "section": "entertainment",
+   "summary": "The Season 24 finale of Real Time with Bill Maher featured a last-minute guest change as Kaitlan Collins was held up in Washington DC. Although she was scheduled to appear on the HBO talk show alongside newly elected Texas Democratic congressman Bobby Pulido, the CNN anchor explained she was covering a White House\u2026"
+  },
+  {
+   "title": "Russian cargo ship burns in Baltic Sea after drone strike",
+   "link": "https://www.abc.net.au/news/2026-11-22/russian-cargo-ship-burns-in-baltic-sea-after-drone-strike/107413782",
+   "published": "2026-11-21T21:52:45+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/4cadc72d7df7f0641c5b284e7bbc90cd?impolicy=wcms_crop_resize&cropH=649&cropW=1154&xPos=44&yPos=0&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Finland says Ukraine was likely behind an attack on Russian cargo ship Sparta II in the Baltic Sea."
+  },
+  {
+   "title": "Spitting Image co-creator Peter Fluck dies aged 85",
+   "link": "https://www.bbc.co.uk/news/articles/cm3vg9dqr6zyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-21T21:39:22+00:00",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5613/live/accb12d0-e5e4-11f1-9ab8-8737221634d6.jpg",
+   "source": "BBC News: Entertainment & Arts",
+   "section": "entertainment",
+   "summary": "The 85-year-old he died in the early hours of Saturday at home in Cornwall, following a recent illness."
+  },
+  {
+   "title": "Human health should factor in antibiotic decision, AMA says",
+   "link": "https://www.abc.net.au/news/2026-11-22/ama-florfenicol-apmva-decision-salmon-farming/107409898",
+   "published": "2026-11-21T21:34:51+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/0d3fa46e02a72b35fdfcca64071ce804?impolicy=wcms_crop_resize&cropH=563&cropW=1000&xPos=0&yPos=0&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "With the Tasmanian salmon industry seeking to again use an antibiotic to combat disease, the nation's peak doctors' group has urged the federal regulator to consider the human health and environmental risks before approving the request."
+  },
+  {
+   "title": "China's support to Pak during Operation Sindoor impacted Indian planning: US panel",
+   "link": "https://timesofindia.indiatimes.com/india/chinas-support-to-pakistan-during-operation-sindoor-impacted-indian-planning-us-panel/articleshow/136062948.cms",
+   "published": "2026-11-21T21:34:39+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Drivers warn shouting for a taxi may become a catchcry of the past",
+   "link": "https://www.abc.net.au/news/2026-11-22/regional-taxis-struggling-to-stay-afloat-amid-rising-costs/107398456",
+   "published": "2026-11-21T21:33:53+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/67c8acf46c18ec48b73cb539b13cb4cb?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Regional taxi companies say they are under pressure, with rising fuel costs and being forced to pay up to 10 times more than rideshare drivers for their compulsory third-party insurance."
+  },
+  {
+   "title": "Iran attacks US bases in Bahrain as its tankers get ready to break the US blockade",
+   "link": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+   "published": "2026-11-21T21:32:51+00:00",
+   "image": "",
+   "source": "Euronews",
+   "section": "europe",
+   "summary": "The \u201cno war, no peace\u201d US-Iran confrontation appears to be moving towards a possible breaking point as Iran increases its military actions in the Gulf and the Strait of Hormuz, while its critical attempt to break the US military naval blockade in the Persian Gulf appears to be imminent."
+  },
+  {
+   "title": "Tasmania Police investigate man's death and shooting of officer",
+   "link": "https://www.abc.net.au/news/2026-11-22/tasmania-police-officer-shot-flinders-island/107413692",
+   "published": "2026-11-21T21:31:19+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/1e40bba63628e74f02bcaae778591fc4?impolicy=wcms_crop_resize&cropH=396&cropW=699&xPos=144&yPos=66&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "A man aged in his 20s has died and a police officer has received \"serious gunshot wounds\" after two Flinders Island incidents, which police believe are linked."
+  },
+  {
+   "title": "Bahrain says Iranian attack causes fire at industrial facility",
+   "link": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility?traffic_source=rss",
+   "published": "2026-11-21T21:31:03+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "middle-east",
+   "summary": "Bahrain reports no injuries, as Iran's IRGC says it targeted US military positions at two bases in al-Riffa and Awali."
+  },
+  {
+   "title": "Australia-Philippine deal exposes where Asean\u2019s architecture is weakest",
+   "link": "https://www.scmp.com/opinion/asia-opinion/article/3374878/australia-philippine-deal-exposes-where-aseans-architecture-weakest",
+   "published": "2026-11-21T21:30:05+00:00",
+   "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/18/632b0047-2a1c-4216-bdb4-1be31b92144d_ec4c6037.jpg?itok=yASbME4n&v=1794989484",
+   "source": "South China Morning Post: World",
+   "section": "asia-pacific",
+   "summary": "The most revealing moment of the 49th Asean summit in Manila might have occurred beyond the plenary hall. On November 15, as Southeast Asian governments gathered to reaffirm regional cooperation, Australia and the Philippines signed a new defence cooperation arrangement intended to make their military partnership more\u2026"
+  },
+  {
+   "title": "Historic images reveal life of workhouse poor sent to Queensland island",
+   "link": "https://www.abc.net.au/news/2026-11-22/dunwich-benevolent-asylum-workhouse-for-poor-for-80-years/107367958",
+   "published": "2026-11-21T21:28:13+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/07b7511bcda879657c937405eb595636?impolicy=wcms_crop_resize&cropH=1125&cropW=2000&xPos=0&yPos=0&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "The mention of workhouses usually conjures Dickensian images of foggy, grimy, Victorian London, not a subtropical island off the Queensland coast. But life was hard here, too."
+  },
+  {
+   "title": "Ohio landlord mistakenly throws away tenant's loved belongings; court upholds $6,000 award",
+   "link": "https://timesofindia.indiatimes.com/world/us/an-ohio-landlord-mistakenly-removed-a-tenants-belongings-including-paintings-and-ceramics-made-by-her-sister-though-she-had-no-receipts-or-photographs-an-appeals-court-upheld-her-6000-award/articleshow/136030199.cms",
+   "published": "2026-11-21T21:27:00+00:00",
+   "image": "https://timesofindia.indiatimes.com/photo/136030199.cms",
+   "source": "The Times of India: World",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "More than 8,000 people applied to be NASA astronauts last time and just 10 were picked",
+   "link": "https://timesofindia.indiatimes.com/science/space/more-than-8000-people-applied-to-be-nasa-astronauts-last-time-and-just-10-were-picked-applications-for-the-next-class-are-open-until-3-december-and-most-applicants-need-a-stem-masters-and-three-years-experience/articleshow/136044615.cms",
+   "published": "2026-11-21T21:24:00+00:00",
+   "image": "https://timesofindia.indiatimes.com/photo/136044615.cms",
+   "source": "The Times of India: World",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Intervention not jail: youth crime plea ahead of Victorian election",
+   "link": "https://www.abc.net.au/news/2026-11-22/victoria-youth-crime-intervention-not-jail-state-election/107408732",
+   "published": "2026-11-21T21:23:49+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/fe4c2e5c0fb076825367773d5b7b468d?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=231&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Youth advocates are calling for a greater focus on early intervention for juvenile offenders, arguing that current hardline approaches are costly and ineffective."
+  },
+  {
+   "title": "An LA diner that served generations since 1924 shut down in 2025, has reopened under a nonprofit operator",
+   "link": "https://timesofindia.indiatimes.com/world/us/iconic-los-angeles-diner-reopens-as-nonprofit-serving-meals-that-help-the-homeless/articleshow/136055922.cms",
+   "published": "2026-11-21T21:20:00+00:00",
+   "image": "https://timesofindia.indiatimes.com/photo/136055922.cms",
+   "source": "The Times of India: World",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Alcaraz digs deep to beat Shelton and reach ATP Finals decider",
+   "link": "https://www.abc.net.au/news/2026-11-22/alcaraz-digs-deep-to-beat-shelton-and-reach-atp-finals-decider/107413742",
+   "published": "2026-11-21T21:17:45+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/bc1fcaccc70ffdad662a1c2bcf0c6304?impolicy=wcms_crop_resize&cropH=2076&cropW=3690&xPos=0&yPos=4&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Carlos Alcaraz reaches the decider of the ATP Finals for the second straight year, but he is made to work by American Ben Shelton before prevailing in three sets."
+  },
+  {
+   "title": "Impunity fuels surge in settler violence across occupied West Bank",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/impunity-fuels-surge-in-settler-violence-across-occupied-west-bank?traffic_source=rss",
+   "published": "2026-11-21T21:11:54+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "middle-east",
+   "summary": ""
+  },
+  {
+   "title": "Indian man jailed over plot to kill Sikh separatist in US",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-us-sikh-separatist-pannun-assassination-plot?traffic_source=rss",
+   "published": "2026-11-21T21:09:18+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "asia-pacific",
+   "summary": "An Indian national has been sentenced to more than 19 years in a US prison for plotting to assassinate Sikh separatist."
+  },
+  {
+   "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+   "link": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-21T21:05:29+00:00",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5701/live/7ac9e270-e5ad-11f1-99a1-253766e7ad8b.jpg",
+   "source": "BBC News: World",
+   "section": "world",
+   "summary": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities."
+  },
+  {
+   "title": "Brazil's ex-president Jair Bolsonaro admitted to ICU with acute bowel obstruction",
+   "link": "https://timesofindia.indiatimes.com/world/rest-of-world/brazils-imprisoned-ex-president-jair-bolsonaro-admitted-to-icu-with-acute-bowel-obstruction/articleshow/136062891.cms",
+   "published": "2026-11-21T21:04:30+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Brazil\u2019s Jair Bolsonaro in intensive care with bowel obstruction",
+   "link": "https://www.aljazeera.com/news/2026/11/21/brazils-jair-bolsonaro-in-intensive-care-with-bowel-obstruction?traffic_source=rss",
+   "published": "2026-11-21T21:02:18+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "americas",
+   "summary": "The former president, serving a sentence for plotting a coup, is stable and breathing on his own, the hospital says."
+  },
+  {
+   "title": "Meet the scientists working to save the corpse flower from extinction",
+   "link": "https://www.abc.net.au/news/2026-11-22/behind-the-scenes-scientists-are-working-to-bring-corpse-flowers/107402372",
+   "published": "2026-11-21T21:01:13+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/3eb6ba03ab0a793b58710028592da747?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Victorian scientists are working on ways to store corpse flower pollen so visitors to botanic gardens around the world get the chance to experience this stinky sensation."
+  },
+  {
+   "title": "Iran says held talks with Qatari mediators, urges US to accept conditions",
+   "link": "https://www.aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions?traffic_source=rss",
+   "published": "2026-11-21T20:56:35+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "middle-east",
+   "summary": "Iran's foreign minister says reopening the strait is 'not difficult' if the US accepts reasonable conditions."
+  },
+  {
+   "title": "Far from home and family, islanders find community in SA's food bowl",
+   "link": "https://www.abc.net.au/news/2026-11-22/palm-worker-pacific-islanders-find-community-sa-food-bowl/107297904",
+   "published": "2026-11-21T20:54:47+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/b9377d82bacde265134048327cffb02f?impolicy=wcms_crop_resize&cropH=2795&cropW=4969&xPos=0&yPos=403&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Every winter, the Riverland population swells with thousands of Pacific Islanders in one of Australia's major food bowls. Meet the temporary residents and the locals who embrace them."
+  },
+  {
+   "title": "One Nation rules out deal with Coalition in NSW",
+   "link": "https://www.abc.net.au/news/2026-11-22/no-coalition-with-coalition-for-nsw-one-nation-mike-newman-says/107412396",
+   "published": "2026-11-21T20:51:16+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/24198382465f06b4fba200a490391939?impolicy=wcms_crop_resize&cropH=1032&cropW=1834&xPos=86&yPos=48&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "The party's state leader has also vowed to repeal post-Bondi Beach terror attack gun laws if elected and took aim at Liberal leader Kellie Sloane."
+  },
+  {
+   "title": "Eisenkot invites Netanyahu\u2019s party for \u2018marathon\u2019 Israeli coalition talks",
+   "link": "https://www.france24.com/en/middle-east/20261121-eisenkot-invites-netanyahu-s-party-for-marathon-israeli-coalition-talks",
+   "published": "2026-11-21T20:49:04+00:00",
+   "image": "https://s.france24.com/media/display/70936d94-e5e9-11f1-943b-13439ca2fe89/w:1024/p:16x9/000-D6U96RP.jpg",
+   "source": "France 24: World",
+   "section": "middle-east",
+   "summary": "Israeli opposition leader Gadi Eisenkot has invited caretaker prime minister Benjamin Netanyahu's right-wing Likud party for coalition talks, his centrist Yashar party said Saturday. \u2026"
+  },
+  {
+   "title": "Thousands protest across Europe over living costs and housing",
+   "link": "https://www.aljazeera.com/news/2026/11/21/thousands-protest-across-europe-over-living-costs-and-housing?traffic_source=rss",
+   "published": "2026-11-21T20:47:50+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "europe",
+   "summary": "Demonstrations in France and Portugal follow youth-led protests over education and economic hardship across Europe."
+  },
+  {
+   "title": "\u2018Artificial\u2019 Filmmaker Luca Guadagnino On Whether AI Is Humanity\u2019s Doomsday & Sam Altman\u2019s Arsenal \u2013 Crew Call Podcast",
+   "link": "https://deadline.com/2026/11/luca-guadagnino-artificial-interview-sam-altman-openai-1237230964/",
+   "published": "2026-11-21T20:45:59+00:00",
+   "image": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-2299206209.jpg",
+   "source": "Deadline",
+   "section": "entertainment",
+   "summary": "Unlike Sony\u2019s recent theatrical release of The Social Reckoning, which arguably didn\u2019t resonate with the current tech era we\u2019re living in, Neon is unwrapping Luca Guadagnino\u2019s Artificial about Open AI co-founders Sam Altman, Ilya Sutskever and Elon Musk at a time when we fear the technology will end us. \u2026"
+  },
+  {
+   "title": "Eisenkot invites Netanyahu's party to Israeli coalition talks",
+   "link": "https://www.abc.net.au/news/2026-11-22/gadi-eisenkot-invites-benjamin-netanyahu-israeli-coalition-talks/107413714",
+   "published": "2026-11-21T20:41:17+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/3257800eba74eb67ebfe3a81806569e9?impolicy=wcms_crop_resize&cropH=450&cropW=800&xPos=0&yPos=75&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Gadi Eisenkot's Yashar party has invited Israeli Prime Minister Benjamin Netanyahu's Likud party to coalition talks."
+  },
+  {
+   "title": "Seth Rogen Says Brad Pitt and \u201812 Years a Slave\u2019 Cast Would Visit \u2018This Is the End\u2019 Set to \u2018Perk Up\u2019 Because They Were \u2018in a Bummed-Out Headspace\u2019 While Filming",
+   "link": "https://variety.com/2026/film/news/seth-rogen-brad-pitt-12-years-a-slave-cast-set-visit-1236955074/",
+   "published": "2026-11-21T20:40:44+00:00",
+   "image": "https://variety.com/wp-content/uploads/2026/11/17th-Governors-Awards-World-Premiere-Of-Netflixs-The-Further-Mis-Adventures-Of-Cliff-Booth-US-ENTERTAINMENT-NETFLIX-STREAMING-TELEVISION-1000.jpg",
+   "source": "Variety",
+   "section": "entertainment",
+   "summary": "Seth Rogen and Brad Pitt spent time together while shooting very different films in 2013. Rogen recalled Pitt, Michael Fassbender, Chiwetel Ejiofor and other cast members from \u201c12 Years a Slave\u201d spending time on the set of his comedy \u201cThis Is the End\u201d while the two films were both shooting in New Orleans. In a"
+  },
+  {
+   "title": "AOC challenged over AIPAC\u2019s influence on Democratic leadership",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_aoc-challenged-over-aipacs-influence-on-democrats-211126?traffic_source=rss",
+   "published": "2026-11-21T20:38:20+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "americas",
+   "summary": "US Representative AOC was challenged by an activist over her support for Hakeem Jeffries, in light of his ties to AIPAC."
+  },
+  {
+   "title": "Israel govt formation: Eisenkot invites Netanyahu's Likud party for coalition talks",
+   "link": "https://timesofindia.indiatimes.com/world/middle-east/israel-government-formation-eisenkot-invites-netanyahus-likud-party-for-coalition-talks/articleshow/136062828.cms",
+   "published": "2026-11-21T20:37:54+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "In a strategic move, Gadi Eisenkot has called upon members of Prime Minister Benjamin Netanyahu's Likud party to engage in coalition negotiations. The objective is to create a national unity government that reflects the fractured state of the current parliament. \u2026"
+  },
+  {
+   "title": "Recall of coloured sand in NZ raises 'serious alarm bells'",
+   "link": "https://www.abc.net.au/news/2026-11-22/choice-faber-castell-recall-new-zealand/107412296",
+   "published": "2026-11-21T20:34:11+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/fc963c9ad56943d2a00d746fbf2a28f4?impolicy=wcms_crop_resize&cropH=506&cropW=900&xPos=0&yPos=77&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "CHOICE is calling for \"urgent investigations\" into coloured sand products in Australia, which have recently been recalled in New Zealand due to asbestos."
+  },
+  {
    "title": "Video shows Mexican forces capturing 'El Chapo Isidro', FBI most-wanted cartel boss",
    "link": "https://www.euronews.com/2026/11/21/video-shows-mexican-forces-capturing-el-chapo-isidro-fbi-most-wanted-cartel-boss",
    "published": "2026-11-21T20:24:17+00:00",
@@ -38,13 +407,31 @@
    "summary": "Turnout \u2060was down \u200bat largely peaceful demonstrations across France on the sixth consecutive Saturday of protests \u200bover the cost of living, with the interior ministry putting the figure at 82,500 across the country. \u2026"
   },
   {
+   "title": "As ice receded on a Swiss Alpine pass, archaeologists discovered a 4,000 years old bronze neck ring",
+   "link": "https://timesofindia.indiatimes.com/science/archaeology/as-ice-receded-on-a-swiss-alpine-pass-archaeologists-discovered-a-bronze-neck-ring-estimated-to-be-4000-years-old-experts-say-it-is-the-first-early-bronze-age-jewellery-found-at-that-location/articleshow/136055916.cms",
+   "published": "2026-11-21T20:20:00+00:00",
+   "image": "https://timesofindia.indiatimes.com/photo/136055916.cms",
+   "source": "The Times of India: World",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Over 1,000 emergency employees told to work from home after FEMA's Washington DC office was found infested with bed bugs",
+   "link": "https://timesofindia.indiatimes.com/world/us/over-1000-emergency-employees-told-to-work-from-home-after-femas-washington-dc-office-was-found-infested-with-bed-bugs/articleshow/136062772.cms",
+   "published": "2026-11-21T20:17:37+00:00",
+   "image": "https://timesofindia.indiatimes.com/photo/136062772.cms",
+   "source": "The Times of India: World",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
    "title": "Two groups verify mathematician\u2019s claim that Claude helped prove mathematics problem",
    "link": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
    "published": "2026-11-21T20:15:57+00:00",
    "image": "https://i.guim.co.uk/img/media/d3154f68df589c297fc3d173e2bb3d95faca05c9/530_0_4678_3742/master/4678.jpg?width=140&quality=85&auto=format&fit=max&s=2be6ea0855df616ea30ffc89afed2e1f",
    "source": "The Guardian: World",
    "section": "world",
-   "summary": "Anthropic\u2019s Levent Alp\u00f6ge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis A mathematician at Anthropic has convincingly said that the San Francisco -based artificial intelligence (AI) company\u2019s software has helped crack one of the most important unsolved problems in\u2026"
+   "summary": "Anthropic\u2019s Levent Alp\u00f6ge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis A mathematician at Anthropic has said that the San Francisco -based artificial intelligence (AI) company\u2019s software has helped crack one of the most important unsolved problems in mathematics \u2013 and\u2026"
   },
   {
    "title": "Why is the US Army detonating lead-rich explosives in Iowa?",
@@ -146,15 +533,6 @@
    "summary": "Cop31 summit \u2018unravelling\u2019 as governments fail to agree on transition to renewables and aid for developing countries Climate talks reached a standstill on Saturday night in Turkey as some countries mulled whether to force a showdown with Saudi Arabia and its allies over the global need to phase out fossil fuels. \u2026"
   },
   {
-   "title": "Spitting Image co-creator Peter Fluck dies aged 85",
-   "link": "https://www.bbc.co.uk/news/articles/cm3vg9dqr6zyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T19:43:19+00:00",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5613/live/accb12d0-e5e4-11f1-9ab8-8737221634d6.jpg",
-   "source": "BBC News: Entertainment & Arts",
-   "section": "entertainment",
-   "summary": "The 85-year-old he died in the early hours of Saturday at home in Cornwall, following a recent illness."
-  },
-  {
    "title": "Watermelon Expands Production Ambitions As It Seals Partnership With Qatar\u2019s Film Committee",
    "link": "https://deadline.com/2026/11/watermelon-production-partnership-qatar-film-committee-1237230984/",
    "published": "2026-11-21T19:43:07+00:00",
@@ -191,7 +569,7 @@
    "summary": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement."
   },
   {
-   "title": "Alarms ring as drone industry body flags China-linked parts in military tenders",
+   "title": "Alarms ring as military drone tenders specify China-linked parts",
    "link": "https://timesofindia.indiatimes.com/defence/news/alarms-ring-as-military-drone-tenders-specify-china-linked-parts-indian-industry-cites-security-risk/articleshow/136062501.cms",
    "published": "2026-11-21T19:32:57+00:00",
    "image": "",
@@ -218,13 +596,13 @@
    "summary": "\u201cA Beautiful Mind\u201d director Ron Howard recently called Russell Crowe\u2019s suggestion to shoot the film in order, which cost the studio an additional $1 million, was \u201cthe right kind of investment.\u201d The 2001 film follows mathematician John Forbes Nash Jr. \u2026"
   },
   {
-   "title": "Live: Struggling Wallabies face resurgent Wales",
+   "title": "Live: Wallabies snap losing streak after thrilling win over Wales",
    "link": "https://www.abc.net.au/news/2026-11-22/wallabies-wales-nations-championship-rugby-test-live-blog/107413660",
    "published": "2026-11-21T19:28:45+00:00",
-   "image": "https://live-production.wcms.abc-cdn.net.au/10afa0334f63e19a92fba82c395427d1?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=3&width=862&height=485",
+   "image": "https://live-production.wcms.abc-cdn.net.au/38ebf5d7e8d7c97ffbdc3bf68c20c57c?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=810&width=862&height=485",
    "source": "ABC News (Australia)",
    "section": "asia-pacific",
-   "summary": "The Wallabies are on a four-match losing streak as they meet Wales in Cardiff, a week after the hosts snapped a 73-year hoodoo against the All Blacks. Follow live."
+   "summary": "The Wallabies end a four-match losing run, defeating a gallant Wales 29-26 in their Nations Championship Test in Cardiff. Follow live."
   },
   {
    "title": "Indiana man paid $9,489 towards condo debt after $9,213 judgment, but court says he still owes more",
@@ -434,15 +812,6 @@
    "summary": "After 10 albums of revered psych rock, Pond rewired their sound, but not their approach to scrutinising Western Australian culture."
   },
   {
-   "title": "Is 'old person smell' real? How social media harnesses shame for sales",
-   "link": "https://www.abc.net.au/news/health/2026-11-22/old-person-smell-2-nonenal-persimmon/107341328",
-   "published": "2026-11-21T18:30:00+00:00",
-   "image": "https://live-production.wcms.abc-cdn.net.au/f233e6f2027c261f77728fa78add4927?impolicy=wcms_crop_resize&cropH=576&cropW=1024&xPos=0&yPos=117&width=862&height=485",
-   "source": "ABC News (Australia)",
-   "section": "asia-pacific",
-   "summary": "Does aging change the way you smell? Marketers are tapping into claims about what causes \"old person smell\" to sell expensive soaps."
-  },
-  {
    "title": "ABC Wordage quiz: It's time to tuck in",
    "link": "https://www.abc.net.au/news/2026-11-22/abc-wordage-quiz-food/107390738",
    "published": "2026-11-21T18:30:00+00:00",
@@ -450,6 +819,15 @@
    "source": "ABC News (Australia)",
    "section": "asia-pacific",
    "summary": "Warning: You should not attempt today's Wordage quiz if you're a little hangry."
+  },
+  {
+   "title": "The science of 'old person smell' and how shame sells soap",
+   "link": "https://www.abc.net.au/news/health/2026-11-22/old-person-smell-2-nonenal-persimmon/107341328",
+   "published": "2026-11-21T18:30:00+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/f233e6f2027c261f77728fa78add4927?impolicy=wcms_crop_resize&cropH=576&cropW=1024&xPos=0&yPos=117&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Does aging change the way you smell? Marketers are tapping into claims about what causes \"old person smell\" to sell expensive soaps."
   },
   {
    "title": "Stephan James on Honoring Carl Weathers\u2019 Legacy and Learning to Box for \u2018I Play Rocky\u2019",
@@ -578,15 +956,6 @@
    "summary": "Josh Allen's wife, Hailee Steinfeld, revealed an emotional dream she has about her daughter."
   },
   {
-   "title": "Dario Amodei, facing an Oppenheimer moment, races ahead",
-   "link": "https://www.abc.net.au/news/2026-11-22/dario-amodei-facing-an-oppenheimer-moment-races-ahead/107264748",
-   "published": "2026-11-21T18:00:00+00:00",
-   "image": "https://live-production.wcms.abc-cdn.net.au/e5f9021c138bf05743aca8d67d8dca61?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=107&width=862&height=485",
-   "source": "ABC News (Australia)",
-   "section": "asia-pacific",
-   "summary": "Anthropic, despite its co-founder's warning in recent months, is leading the pack on AI development while breaking records with last week's float on the US stock exchange."
-  },
-  {
    "title": "Inside a room with Trump, there's no mistaking who holds the power",
    "link": "https://www.abc.net.au/news/2026-11-22/albanese-trump-quad-xi-putin-summits-analysis/107410572",
    "published": "2026-11-21T18:00:00+00:00",
@@ -603,6 +972,15 @@
    "source": "ABC News (Australia)",
    "section": "asia-pacific",
    "summary": "A leaked webinar from a notorious Australian cult has revealed how it has harvested millions from dying followers."
+  },
+  {
+   "title": "Facing an Oppenheimer moment, Amodei races on with Anthropic debut",
+   "link": "https://www.abc.net.au/news/2026-11-22/dario-amodei-facing-an-oppenheimer-moment-races-ahead/107264748",
+   "published": "2026-11-21T18:00:00+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/e5f9021c138bf05743aca8d67d8dca61?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=107&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Anthropic, despite its co-founder's warning in recent months, is leading the pack on AI development while breaking records with last week's float on the US stock exchange."
   },
   {
    "title": "UK police drag man from protest over \u2018Pallet Sign Acton\u2019 shirt",
@@ -1117,6 +1495,15 @@
    "summary": "Death adds to national measles outbreak that recently cost the US its measles elimination status after 26 years Virginia reported its first measles-associated death of 2026 \u2060on Friday, involving a child who tested positive for the infectious disease, the state\u2019s health department said. \u2026"
   },
   {
+   "title": "Banning AI tools neither practical nor wise: CJI",
+   "link": "https://timesofindia.indiatimes.com/city/hyderabad/no-student-should-be-held-guilty-on-word-of-machine-alone-cji-surya-kant-at-legal-education-conference-in-hyderabad/articleshow/136057721.cms",
+   "published": "2026-11-21T15:28:52+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "Chief Justice of India Surya Kant addressed the need for a balanced approach to AI in legal education. He emphasized the importance of independent reasoning and academic integrity for future lawyers. Kant also proposed mandatory legal aid work for law students to enhance practical learning. \u2026"
+  },
+  {
    "title": "Iran claims it hit F-16 jet over Gulf, forced emergency landing; US denies attack",
    "link": "https://timesofindia.indiatimes.com/world/middle-east/iran-claims-it-hit-f-16-jet-over-gulf-forced-emergency-landing-us-denies-attack/articleshow/136057761.cms",
    "published": "2026-11-21T15:28:18+00:00",
@@ -1223,6 +1610,15 @@
    "source": "South China Morning Post: World",
    "section": "asia-pacific",
    "summary": "Hong Kong will inject a further US$20 million into a special fund of the Asian Infrastructure Investment Bank (AIIB) following the signing of an agreement on Saturday allowing it to set up an office in Hong Kong. \u2026"
+  },
+  {
+   "title": "Mexico captures drug cartel boss \u2018El Chapo Isidro\u2019 after deadly firefight",
+   "link": "https://www.france24.com/en/americas/20261121-mexico-captures-drug-cartel-boss-el-chapo-isidro-after-deadly-firefight",
+   "published": "2026-11-21T15:00:15+00:00",
+   "image": "https://s.france24.com/media/display/7ea4cdf8-e5d8-11f1-9d8c-1bac47ab2f5d/w:1024/p:16x9/5ae7a51b5a446d41d7c0ce84900d19b70a41bb55.jpg",
+   "source": "France 24: World",
+   "section": "americas",
+   "summary": "Mexico's military forces captured \u200bone of the most wanted suspected drug lords, Fausto Isidro Meza Flores, known as \"El Chapo Isidro,\" the military announced on Saturday, after a deadly firefight that killed seven suspected attackers and four soldiers. \u2026"
   },
   {
    "title": "I never wanted the American Dream and I felt like something was wrong with me\u2014until I moved abroad",
@@ -1362,7 +1758,7 @@
    "section": "world"
   },
   {
-   "title": "Jair Bolsonaro hospitalised with abdominal pain while under house arrest",
+   "title": "Brazil ex-president Bolsonaro in intensive care over intestinal problem",
    "link": "https://www.euronews.com/2026/11/21/jair-bolsonaro-hospitalised-with-abdominal-pain-while-under-house-arrest",
    "published": "2026-11-21T14:35:56+00:00",
    "image": "",
@@ -1422,7 +1818,7 @@
    "image": "",
    "source": "Euronews",
    "section": "europe",
-   "summary": "Fausto Isidro Meza Flores, one of the FBI\u2019s ten most-wanted fugitives, was arrested in a military operation involving US intelligence cooperation. Gunfire, burning vehicles and panic among civilians followed the raid in northern Mexico."
+   "summary": "Fausto Isidro Meza Flores, one of the FBI\u2019s ten most-wanted fugitives, was arrested in a military operation involving US intelligence cooperation. Gunfire, burning vehicles and panic among civilians followed the raid in northern Mexico. 11 people were killed."
   },
   {
    "title": "Killer robots: U.N. talks fall short of hopes for legally binding rules",
@@ -1628,15 +2024,6 @@
    "source": "BBC News: World",
    "section": "europe",
    "summary": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine."
-  },
-  {
-   "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-   "link": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-21T13:15:21+00:00",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5701/live/7ac9e270-e5ad-11f1-99a1-253766e7ad8b.jpg",
-   "source": "BBC News: World",
-   "section": "world",
-   "summary": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities."
   },
   {
    "title": "State and federal battle over prediction markets regulation heats up after midterms",
@@ -2181,9 +2568,10 @@
    "title": "In 1913, Ohio parents mailed their 10-pound baby to grandmother for 15 cents",
    "link": "https://timesofindia.indiatimes.com/world/us/in-1913-ohio-parents-found-their-10-pound-baby-fit-under-the-new-11-pound-parcel-post-limit-they-sent-james-beagle-to-his-grandmother-for-15-cents-insured-him-for-50-and-a-rural-mail-carrier-delivered-him-safely/articleshow/136052865.cms",
    "published": "2026-11-21T11:53:58+00:00",
-   "image": "https://timesofindia.indiatimes.com/photo/136052865.cms",
-   "source": "The Times of India: World",
-   "section": "asia-pacific"
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "In a remarkable incident from 1913, an Ohio couple made headlines by sending their eight-month-old son to his grandmother using Parcel Post, a groundbreaking and controversial method. The minimal cost of just 15 cents shocked the public and sparked a series of similar reports across the nation. \u2026"
   },
   {
    "title": "Mexico captures FBI-wanted cartel boss in military raid",
@@ -4089,7 +4477,7 @@
    "link": "https://www.scmp.com/news/world/united-states-canada/article/3375297/indian-man-jailed-over-us-murder-plot-against-sikh-separatist",
    "published": "2026-11-20T19:27:53+00:00",
    "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/21/0f0925b3-2ff2-4ba0-9fd7-e1bab24b37cc_2c3ee19f.jpg?itok=5vV2v1nG&v=1795202856",
-   "source": "South China Morning Post: World",
+   "source": "South China Morning Post: Asia",
    "section": "asia-pacific",
    "summary": "An Indian man was sentenced to more than 19 years in US prison on Friday after admitting to orchestrating a failed Indian government-backed plot to \u200ckill a Sikh separatist in New York, in connection with what US and Canadian authorities have called a broader effort to target Indian dissidents. \u2026"
   },
@@ -6679,24 +7067,6 @@
    "source": "The Guardian: World",
    "section": "americas",
    "summary": "Christian Emmanuel Sanon faces life in prison after conviction on charges arising from killing of Jovenel Mo\u00efse A Florida pastor with dual Haitian-American citizenship was convicted on Wednesday of US charges arising from the 2021 assassination of the Haitian president Jovenel Mo\u00efse. \u2026"
-  },
-  {
-   "title": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
-   "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-18T21:28:08+00:00",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dcc1/live/0bb55690-e36d-11f1-99a1-253766e7ad8b.jpg",
-   "source": "BBC News: US & Canada",
-   "section": "americas",
-   "summary": "Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain."
-  },
-  {
-   "title": "President Bassirou Diomaye Faye excluded from Senegal's ruling party",
-   "link": "https://www.france24.com/en/bassirou-diomaye-faye-excluded-from-senegal-s-ruling-party",
-   "published": "2026-11-18T21:21:28+00:00",
-   "image": "https://s.france24.com/media/display/a145d098-e41e-11f1-9507-e56ab3dc0809/w:1024/p:16x9/capture-a317f3ba.jpg",
-   "source": "France 24: Africa",
-   "section": "africa",
-   "summary": "In tonight's edition: The political divorce between Senegal's president and his powerful former prime minister and mentor is official. Also, all of Nigeria's states have shown willingness for a push to create their own police forces. \u2026"
   }
  ]
 }

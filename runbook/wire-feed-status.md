@@ -2,13 +2,13 @@
 
 Rewritten by wire.py on every run. Plain English: which feeds answered on the latest run, which were dropped and why, and which of our stories are being held.
 
-Latest run: 2026-11-21 20:37 UTC. Feeds answering: 35 of 36. Wire items on the site: 754.
+Latest run: 2026-11-21 22:11 UTC. Feeds answering: 35 of 36. Wire items on the site: 795.
 
-Story pages (trial, STORY_PAGES = True): 176 live in docs/s/ (176 written or updated this run, 0 removed because their headline left the wire).
+Story pages (trial, STORY_PAGES = True): 175 live in docs/s/ (122 written or updated this run, 47 removed because their headline left the wire).
 
 | Feed | Section | Result | Items | With photo |
 |---|---|---|---|---|
-| BBC News: World | world | ok | 26 | 26 |
+| BBC News: World | world | ok | 27 | 27 |
 | BBC News: US & Canada | americas | ok | 33 | 33 |
 | BBC News: Latin America | americas | ok | 17 | 17 |
 | BBC News: Europe | europe | ok | 26 | 26 |
@@ -23,7 +23,7 @@ Story pages (trial, STORY_PAGES = True): 176 live in docs/s/ (176 written or upd
 | The Guardian: Africa | africa | ok | 20 | 20 |
 | The Guardian: Middle East | middle-east | ok | 20 | 20 |
 | The Guardian: Asia-Pacific | asia-pacific | ok | 20 | 20 |
-| NPR: World | world | ok | 10 | 7 |
+| NPR: World | world | ok | 10 | 5 |
 | DW: Top Stories | world | ok | 21 | 0 |
 | DW: Business | business | ok | 20 | 0 |
 | France 24: World | world | ok | 24 | 24 |
@@ -36,7 +36,7 @@ Story pages (trial, STORY_PAGES = True): 176 live in docs/s/ (176 written or upd
 | South China Morning Post: World | world | ok | 50 | 50 |
 | South China Morning Post: Asia | asia-pacific | ok | 50 | 50 |
 | The Times of India: World | world | ok | 20 | 20 |
-| The Times of India: Top Stories | asia-pacific | ok | 46 | 0 |
+| The Times of India: Top Stories | asia-pacific | ok | 45 | 0 |
 | The Japan Times | asia-pacific | ok | 30 | 30 |
 | CNBC: World Markets | business | ok | 30 | 0 |
 | Variety | entertainment | ok | 10 | 10 |
