@@ -37,14 +37,14 @@ img{display:block;max-width:100%;height:auto}
 /* ---------- masthead ---------- */
 .masthead{position:relative;background:var(--ocean);color:#fff;overflow:hidden;isolation:isolate}
 .masthead::before{content:"";position:absolute;inset:0;background:radial-gradient(120% 140% at 85% 50%,rgba(20,128,138,.35) 0%,rgba(10,31,61,0) 55%),linear-gradient(180deg,rgba(6,20,41,.0),rgba(6,20,41,.55));z-index:-1}
-.masthead .globe{position:absolute;right:-70px;top:50%;width:260px;height:260px;transform:translateY(-50%);background:url(../img/blue-marble.jpg) center/cover no-repeat;border-radius:50%;mix-blend-mode:screen;opacity:.55;z-index:-1;-webkit-mask-image:radial-gradient(circle,#000 62%,transparent 71%);mask-image:radial-gradient(circle,#000 62%,transparent 71%)}
-@media(min-width:700px){.masthead .globe{right:-30px;width:360px;height:360px;opacity:.85}}
-@media(min-width:1100px){.masthead .globe{right:4%;width:400px;height:400px}}
+.masthead .globe{position:absolute;right:-120px;top:50%;width:250px;height:250px;transform:translateY(-50%);background:url(../img/blue-marble.jpg) center/cover no-repeat;border-radius:50%;mix-blend-mode:screen;opacity:.38;z-index:-1;-webkit-mask-image:radial-gradient(circle,#000 62%,transparent 71%);mask-image:radial-gradient(circle,#000 62%,transparent 71%)}
+@media(min-width:700px){.masthead .globe{right:-30px;width:420px;height:420px;opacity:.9}}
+@media(min-width:1100px){.masthead .globe{right:3%;width:480px;height:480px}}
 .masthead .wrap{padding-top:26px;padding-bottom:22px}
 @media(min-width:700px){.masthead .wrap{padding-top:38px;padding-bottom:32px}}
-.brand{display:block;font-family:var(--hed);font-weight:700;font-size:clamp(34px,9.4vw,70px);line-height:.92;letter-spacing:-.02em;font-variation-settings:"opsz" 144,"SOFT" 30}
-.brand .w{display:block;font-size:.48em;letter-spacing:.32em;font-weight:600;color:var(--gold);margin-bottom:6px;font-family:var(--ui);text-transform:uppercase}
-.brand em{font-style:italic;font-weight:500;color:#EAF2F8}
+.brand{display:block;text-shadow:0 3px 18px rgba(4,13,28,.65);font-family:var(--hed);font-weight:700;font-size:clamp(30px,8.2vw,76px);line-height:.92;letter-spacing:-.02em;font-variation-settings:"opsz" 144,"SOFT" 30}
+.brand .w{display:inline;font-size:1em;letter-spacing:-.02em;font-weight:700;color:#fff;margin-right:.22em;font-family:var(--hed);text-transform:none}
+.brand em{font-style:italic;font-weight:500;background:linear-gradient(180deg,#F6DD8C,#C9A227 60%,#A8821B);-webkit-background-clip:text;background-clip:text;color:transparent}
 .tagline{font-family:var(--hed);font-style:italic;font-size:clamp(16px,4vw,21px);color:var(--gold-soft);margin-top:12px}
 .dateline{font-family:var(--ui);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#93A8C3;margin-top:10px}
 .dateline b{color:#fff;font-weight:600}
