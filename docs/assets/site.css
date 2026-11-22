@@ -339,3 +339,7 @@ img{display:block;max-width:100%;height:auto}
 .sp-join p{font:15px/1.5 var(--ui);color:#d7e1ea;margin:6px 0 14px}
 .sp-join a.f{display:inline-block;margin:0 8px 8px 0;background:var(--gold);color:var(--ocean);font:700 13px var(--ui);padding:9px 14px;border-radius:5px}
 .card.wire a.out:hover{text-decoration:underline}
+/* "Add us as a preferred source on Google" button in the follow band */
+.socials a.gsrc{background:#fff;color:#1F1F1F;border-color:#fff;font-size:13px}
+.socials a.gsrc:hover{background:var(--gold-soft);color:var(--ocean);border-color:var(--gold-soft)}
+.socials svg.g{width:18px;height:18px}

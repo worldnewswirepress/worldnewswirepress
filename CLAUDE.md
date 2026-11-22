@@ -75,3 +75,10 @@ docs/s/: it is regenerated every hour.
 Byline "By the World Desk, World Newswire Press". Every story: confirmed facts
 only, own words (never copy sentences), fact box, closing question, sources
 list with links, credited licensed photo, named sign-off.
+
+## MONEY SWITCHES — ads, media kit, privacy (Nov 22 2026)
+
+- GOOGLE ADS (AdSense): one line switches it on. Set ADSENSE_PUB = "pub-XXXXXXXXXXXXXXXX" at the top of wire.py, run `python3 tools/adsense.py`, commit. That puts Google's Auto ads tag between <!-- ADSENSE:START --> / <!-- ADSENSE:END --> in the <head> of every page in docs/ (hand-written ones too) and writes docs/ads.txt; wire.py adds the same tag to every page it generates, story pages included. Empty ADSENSE_PUB and re-run to switch ads off. Releases and sponsored stories (kind "release" or sponsored true in data/originated.json) and any page with <meta name="ads" content="off"> stay ad-free. In AdSense, also switch on Privacy & messaging > European regulations (Google's free consent message), because docs/privacy.html promises it.
+- Advertise / media kit: docs/advertise.html (hand-written, wnp-section "advertise"; starting rates; info@worldnewswirepress.com; "we confirm and invoice"). In the nav (NAV in wire.py) and footer.
+- Privacy & ads disclosure: docs/privacy.html. Any affiliate link we add must carry rel="sponsored noopener".
+- Follow band (footer_block in wire.py) carries "Add us as a preferred source on Google" (https://www.google.com/preferences/source?q=worldnewswirepress.com).
