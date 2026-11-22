@@ -2,21 +2,21 @@
 
 Rewritten by wire.py on every run. Plain English: which feeds answered on the latest run, which were dropped and why, and which of our stories are being held.
 
-Latest run: 2026-11-22 05:20 UTC. Feeds answering: 35 of 36. Wire items on the site: 934.
+Latest run: 2026-11-22 09:54 UTC. Feeds answering: 35 of 36. Wire items on the site: 1057.
 
-Story pages (trial, STORY_PAGES = True): 206 live in docs/s/ (206 written or updated this run, 55 removed because their headline left the wire).
+Story pages (trial, STORY_PAGES = True): 190 live in docs/s/ (174 written or updated this run, 141 removed because their headline left the wire).
 
 | Feed | Section | Result | Items | With photo |
 |---|---|---|---|---|
-| BBC News: World | world | ok | 27 | 27 |
+| BBC News: World | world | ok | 28 | 28 |
 | BBC News: US & Canada | americas | ok | 33 | 33 |
 | BBC News: Latin America | americas | ok | 17 | 17 |
 | BBC News: Europe | europe | ok | 26 | 26 |
-| BBC News: Africa | africa | ok | 28 | 28 |
+| BBC News: Africa | africa | ok | 27 | 27 |
 | BBC News: Middle East | middle-east | ok | 26 | 26 |
 | BBC News: Asia | asia-pacific | ok | 16 | 16 |
 | BBC News: Business | business | ok | 58 | 58 |
-| BBC News: Entertainment & Arts | entertainment | ok | 27 | 27 |
+| BBC News: Entertainment & Arts | entertainment | ok | 25 | 25 |
 | Al Jazeera | world | ok | 25 | 0 |
 | The Guardian: World | world | ok | 45 | 45 |
 | The Guardian: Americas | americas | ok | 20 | 20 |
