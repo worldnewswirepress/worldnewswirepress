@@ -2,9 +2,9 @@
 
 Rewritten by wire.py on every run. Plain English: which feeds answered on the latest run, which were dropped and why, and which of our stories are being held.
 
-Latest run: 2026-11-22 02:16 UTC. Feeds answering: 35 of 36. Wire items on the site: 869.
+Latest run: 2026-11-22 05:20 UTC. Feeds answering: 35 of 36. Wire items on the site: 934.
 
-Story pages (trial, STORY_PAGES = True): 188 live in docs/s/ (162 written or updated this run, 71 removed because their headline left the wire).
+Story pages (trial, STORY_PAGES = True): 206 live in docs/s/ (206 written or updated this run, 55 removed because their headline left the wire).
 
 | Feed | Section | Result | Items | With photo |
 |---|---|---|---|---|
@@ -36,7 +36,7 @@ Story pages (trial, STORY_PAGES = True): 188 live in docs/s/ (162 written or upd
 | South China Morning Post: World | world | ok | 50 | 50 |
 | South China Morning Post: Asia | asia-pacific | ok | 50 | 50 |
 | The Times of India: World | world | ok | 20 | 20 |
-| The Times of India: Top Stories | asia-pacific | ok | 45 | 0 |
+| The Times of India: Top Stories | asia-pacific | ok | 47 | 0 |
 | The Japan Times | asia-pacific | ok | 30 | 30 |
 | CNBC: World Markets | business | ok | 30 | 0 |
 | Variety | entertainment | ok | 10 | 10 |

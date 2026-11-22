@@ -2,7 +2,511 @@
  "_note": "Last good wire items, so a run where every feed fails does not blank the site. Rewritten by wire.py every run.",
  "items": [
   {
-   "title": "\u2018Horrific\u2019 ICE arrests at Seattle airport jet bridge rattles passengers, fuels outrage",
+   "title": "Spirit of Tasmania operator told not to use autopilot for entire voyage",
+   "link": "https://www.abc.net.au/news/2026-11-22/spirit-of-tasmania-ferries-unable-to-use-autopilot/107414328",
+   "published": "2026-11-22T05:11:45+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/ee3cdcd9ed4276166bc0384d817897f9?impolicy=wcms_crop_resize&cropH=1940&cropW=3450&xPos=615&yPos=674&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "The Australian Maritime Safety Bureau has ordered TT-Line to stop using autopilot during any part of the ferries' Bass Strait voyages as it probes steering issues on one of the vessels."
+  },
+  {
+   "title": "ICE agents detain two people at Seattle airport",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/22/ice-agents-detain-two-people-at-seattle-airport?traffic_source=rss",
+   "published": "2026-11-22T05:06:32+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "world",
+   "summary": "Masked ICE agents detained two people on a crowded airport jet bridge in Seattle as passengers were boarding a flight."
+  },
+  {
+   "title": "COP31 struggles to reach deal with parties at odds over fossil fuels",
+   "link": "https://www.abc.net.au/news/2026-11-22/cop31-at-odds-over-fossil-fuels/107414330",
+   "published": "2026-11-22T05:04:51+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/2583b2e51d84b9058127b4b26ede513f?impolicy=wcms_crop_resize&cropH=2427&cropW=4315&xPos=0&yPos=311&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "The language around fossil fuels remains a flashpoint at UN climate talks in T\u00fcrkiye, where negotiations have gone into a second day past the deadline."
+  },
+  {
+   "title": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+   "link": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+   "published": "2026-11-22T05:04:39+00:00",
+   "image": "https://i.guim.co.uk/img/media/3d9052371f434580f71c25a962110e47f2e6a076/605_0_6228_4986/master/6228.jpg?width=140&quality=85&auto=format&fit=max&s=b27cbf562e91080e6b506b93ff0b44c3",
+   "source": "The Guardian: World",
+   "section": "asia-pacific",
+   "summary": "Choi Kyo-jin said he \u2018failed to prepare adequately\u2019 for entrance exams, which this year had phones banned and checks for cameras hidden in clothing South Korea\u2019s education minister resigned on Sunday after an AI-assisted cheating scandal that erupted in the lead-up to the country\u2019s key university entrance exams. \u2026"
+  },
+  {
+   "title": "Two hours of no electricity daily: Why Iran will face power cuts during winter",
+   "link": "https://timesofindia.indiatimes.com/world/middle-east/two-hours-of-no-electricity-daily-why-iran-will-face-power-cuts-during-winter/articleshow/136067568.cms",
+   "published": "2026-11-22T05:02:50+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "Iran plans to implement rolling power cuts starting Sunday in response to energy supply shortages. Damage to gas facilities and previous strikes have worsened the energy crisis. The electricity cuts will last around two hours every two days, with variations based on location. \u2026"
+  },
+  {
+   "title": "CAQM to govts: Cut pollution load by 15-20%, name officers",
+   "link": "https://timesofindia.indiatimes.com/city/delhi/caqm-to-govts-cut-pollution-load-by-15-20-name-officers/articleshow/136067621.cms",
+   "published": "2026-11-22T05:02:35+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "Commission for Air Quality Management emphasizes the need for a 15% pollution reduction in the National Capital Region. The reduction target will increase to 20% by 2027, ensuring better air quality. District-level action plans are required from Delhi, Haryana, UP, and Rajasthan. \u2026"
+  },
+  {
+   "title": "Miniature camera, exam fraud & public fury: South Korea education chief resigns",
+   "link": "https://timesofindia.indiatimes.com/world/rest-of-world/miniature-camera-exam-fraud-and-public-fury-south-korea-education-chief-resigns-after-cheating-scandal/articleshow/136067566.cms",
+   "published": "2026-11-22T04:55:21+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Indian-origin man working in Texas sent customer's nudes to himself, arrested by ICE",
+   "link": "https://timesofindia.indiatimes.com/world/us/indian-origin-man-working-in-texas-network-store-sends-customers-nudes-to-himself-arrested-by-ice/articleshow/136067464.cms",
+   "published": "2026-11-22T04:52:54+00:00",
+   "image": "https://timesofindia.indiatimes.com/photo/136067464.cms",
+   "source": "The Times of India: World",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "One-handed screamer! Dhruv Jurel's jaw-dropping catch leaves Nicholls stunned",
+   "link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/one-handed-screamer-dhruv-jurels-jaw-dropping-catch-leaves-new-zealands-henry-nicholls-stunned-watch/articleshow/136067521.cms",
+   "published": "2026-11-22T04:52:27+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "Dhruv Jurel grabbed a spectacular one-handed catch to dismiss Henry Nicholls on Day 4 of the Test. India declared their innings at 720/9, securing a massive lead of 352 runs. This total broke the record for the highest Test innings in New Zealand, previously set by New Zealand itself. \u2026"
+  },
+  {
+   "title": "Fossil fuel impasse pushes COP31 climate talks into second day of overtime",
+   "link": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime?traffic_source=rss",
+   "published": "2026-11-22T04:51:35+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "world",
+   "summary": "COP31 President \u200bMurat Kurum asks negotiators to consider a last-minute proposal in attempt to reach an agreement."
+  },
+  {
+   "title": "First images of Mexican cartel boss \u2018El Chapo Isidro\u2019 after arrest",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/22/first-images-of-mexican-cartel-boss-el-chapo-isidro-after-arrest?traffic_source=rss",
+   "published": "2026-11-22T04:42:02+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "world",
+   "summary": ""
+  },
+  {
+   "title": "Storm Kills Three, Damages Homes: Supercell storm damaged 5,000 homes; authorities probe possible fourth death",
+   "link": "https://timesofindia.indiatimes.com/world/rest-of-world/brazil-supercell-storm-3-killed-thousands-of-homes-damaged-as-114-kmph-winds-batter-town/articleshow/136067257.cms",
+   "published": "2026-11-22T04:41:06+00:00",
+   "image": "https://timesofindia.indiatimes.com/photo/136067257.cms",
+   "source": "The Times of India: World",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Hong Kong-Chile working holiday scheme expected to launch in first half of 2027",
+   "link": "https://www.scmp.com/news/hong-kong/society/article/3375357/hong-kong-chile-working-holiday-scheme-expected-launch-first-half-2027",
+   "published": "2026-11-22T04:40:49+00:00",
+   "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/22/9c9ee69a-8c9e-4e1e-b4ba-397b6a1500d4_52b4492b.jpg?itok=MgKGwCeu&v=1795321871",
+   "source": "South China Morning Post: World",
+   "section": "americas",
+   "summary": "A working holiday scheme agreed between Hong Kong and Chile during the Apec summit in Shenzhen last week is expected to launch in the first half of 2027, offering 100 places a year on each side, the labour minister has said. \u2026"
+  },
+  {
+   "title": "9-year-old Ohio girl wins $10,000 for her sensory-friendly soap business",
+   "link": "https://timesofindia.indiatimes.com/world/us/meet-penny-ramsey-the-9-year-old-ohio-entrepreneur-who-started-making-sensory-friendly-slime-and-soap-to-pay-for-summer-camp-and-won-10000-to-grow-her-business/articleshow/135985338.cms",
+   "published": "2026-11-22T04:40:00+00:00",
+   "image": "https://timesofindia.indiatimes.com/photo/135985338.cms",
+   "source": "The Times of India: World",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Florida family demolishes grandma's home; county raises fines from $9k to $50k",
+   "link": "https://timesofindia.indiatimes.com/world/us/sumter-county-florida-mailed-code-fines-on-a-dead-grandmothers-home-to-an-old-address-for-three-years-the-family-had-the-house-demolished-and-now-the-county-wants-50000-after-first-agreeing-to-9000/articleshow/136046376.cms",
+   "published": "2026-11-22T04:40:00+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "In Florida, a family is embroiled in a financial struggle concerning their late grandmother's property, which has accrued substantial code enforcement fines since her passing in 2018. \u2026"
+  },
+  {
+   "title": "MP Collector Sheela Dahima's 'Delhi Wali Girlfriend' rendition goes viral",
+   "link": "https://timesofindia.indiatimes.com/life-style/people/who-knew-this-ias-officer-had-a-bollywood-singer-side-meet-sheela-dahima-the-sheopur-madhya-pradesh-district-collector-whose-rendition-of-delhi-wali-girlfriend-is-winning-hearts-online/articleshow/136066576.cms",
+   "published": "2026-11-22T04:40:00+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "Sheela Dahima, a notable IAS officer from Madhya Pradesh, has captured hearts with her beautiful singing. A recent video of her belting out a Bollywood melody has taken social media by storm. Despite the demanding nature of her UPSC studies, Sheela's lifelong love for music shines through. \u2026"
+  },
+  {
+   "title": "All Blacks coach Dave Rennie on hot seat after poor showing in loss against England",
+   "link": "https://www.japantimes.co.jp/sports/2026/11/22/more-sports/new-zealand-coach-under-pressure/",
+   "published": "2026-11-22T04:39:00+00:00",
+   "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/22/575388.JPG",
+   "source": "The Japan Times",
+   "section": "asia-pacific",
+   "summary": "After last week's surprise loss to Wales, New Zealand's first in 73 years, Rennie said that \"we let our country down\" and he admitted the display at Twickenham was even worse."
+  },
+  {
+   "title": "Angry over breakup, Mumbai man sets ex-girlfriend's flat on fire in upscale locality",
+   "link": "https://timesofindia.indiatimes.com/city/mumbai/angry-over-breakup-mumbai-man-pours-petrol-sets-ex-girlfriends-flat-on-fire-in-upscale-locality/articleshow/136067188.cms",
+   "published": "2026-11-22T04:37:55+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "Dipesh Rastogi has been accused of igniting a fire at his ex-girlfriend's flat in Dombivli after she chose to end their relationship. This distressing incident took place Thursday, with police revealing that Rastogi used petrol to set fire to the flat's entrance. \u2026"
+  },
+  {
+   "title": "Man, 55, found alive after going missing in Grampians for five days",
+   "link": "https://www.abc.net.au/news/2026-11-22/camper-found-alive-by-police-helicopter-in-the-grampians/107414312",
+   "published": "2026-11-22T04:34:59+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/94a83baabecc19d7d176b7bcae1b6aad?impolicy=wcms_crop_resize&cropH=768&cropW=1365&xPos=7&yPos=192&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Police say the camper is lucky to be alive after helicopters found him five days after his car got bogged on a remote track in the Grampians National Park."
+  },
+  {
+   "title": "Three dead, 36 missing after fire tears through Indonesia confectionery factory",
+   "link": "https://timesofindia.indiatimes.com/world/rest-of-world/three-dead-36-missing-after-fire-tears-through-indonesia-confectionery-factory/articleshow/136067337.cms",
+   "published": "2026-11-22T04:30:48+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Epstein\u2019s Russia obsession: 17 Young women, oligarchs & desperate bid for redemption",
+   "link": "https://timesofindia.indiatimes.com/world/us/epsteins-russia-obsession-17-young-women-oligarchs-and-a-desperate-bid-for-redemption/articleshow/136067310.cms",
+   "published": "2026-11-22T04:25:03+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Two Indian-origin persons killed in targeted shooting outside Canada Walmart",
+   "link": "https://timesofindia.indiatimes.com/world/us/organised-crime-suspected-two-indian-origin-persons-shot-dead-outside-canada-walmart-report/articleshow/136067289.cms",
+   "published": "2026-11-22T04:22:46+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "\u2018American Psycho\u2019 Gets Axed: Luca Guadagnino Confirms His Adaptation Is \u201cNot Happening\u201d",
+   "link": "https://deadline.com/2026/11/luca-guadagnino-american-psycho-not-happening-1237231106/",
+   "published": "2026-11-22T04:21:37+00:00",
+   "image": "https://deadline.com/wp-content/uploads/2026/11/American-Psycho-Luca-Guadagnino-2-shot.jpg",
+   "source": "Deadline",
+   "section": "entertainment",
+   "summary": "Luca Guadagnino has to return some videotapes. The Oscar-nominated director is passing on Scott Z. Burns\u2019 American Psycho adaptation. While appearing on Deadline\u2019s Crew Call podcast, Guadagnino told Anthony D\u2019Allesandro that he is no longer attached to the projects, two years after we exclusively revealed he and Burns\u2026"
+  },
+  {
+   "title": "4.0-magnitude earthquake strikes Pakistan near Afghanistan border",
+   "link": "https://timesofindia.indiatimes.com/world/pakistan/4-0-magnitude-earthquake-strikes-pakistan-near-afghanistan-border/articleshow/136067227.cms",
+   "published": "2026-11-22T04:16:32+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Wallabies still have a pulse despite nervous moments in win over Wales",
+   "link": "https://www.abc.net.au/news/2026-11-22/wallabies-australia-wales-rugby-nations-championship-test/107414310",
+   "published": "2026-11-22T04:14:59+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/79376d1120bafa930301e9ac794c3cb6?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=132&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "It wasn't a performance to put the rugby world on notice, but the Wallabies can take pride from their narrow victory in Cardiff."
+  },
+  {
+   "title": "Chandigarh-Mumbai flight: Man's compensation raised to Rs 30,000 over seat mix-up",
+   "link": "https://timesofindia.indiatimes.com/city/mumbai/chandigarh-man-pays-rs-4620-for-6-extra-legroom-seats-on-mumbai-flight-4-friends-get-different-seats-consumer-commission-raises-compensation-from-rs-9000-to-rs-30000-orders-refund-with-9-interest/articleshow/136066859.cms",
+   "published": "2026-11-22T04:11:04+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "Vineet Khurana booked six extra-legroom seats for a flight but four were reassigned to different passengers. Although Khurana and his wife received upgrades, the airline failed to honor reservations made for their group. \u2026"
+  },
+  {
+   "title": "Remembering Australia's worst naval disaster 'limited' due to council woes",
+   "link": "https://www.abc.net.au/news/2026-11-22/sinking-of-hmas-sydney-85th-anniversary-commemorated-in-wa/107400176",
+   "published": "2026-11-22T04:08:10+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/8e4f9c8147d5cd6f74a1c249c60d12b8?impolicy=wcms_crop_resize&cropH=2368&cropW=4209&xPos=0&yPos=177&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "On the 85th anniversary of the sinking of HMAS Sydney, the Naval Association of Australia says it had to scale down proposed commemorative events because of a lack of cooperation from a local government."
+  },
+  {
+   "title": "Iran says 428 children killed in two wars, Red Crescent chief calls for independent probe into Minab school attack",
+   "link": "https://timesofindia.indiatimes.com/world/middle-east/iran-says-428-children-killed-in-two-wars-red-crescent-chief-calls-for-independent-probe-into-minab-school-attack/articleshow/136066538.cms",
+   "published": "2026-11-22T04:02:48+00:00",
+   "image": "https://timesofindia.indiatimes.com/photo/136066538.cms",
+   "source": "The Times of India: World",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Experts call for stronger reef protection as 20% of coral survey sites bleached",
+   "link": "https://www.scmp.com/news/hong-kong/health-environment/article/3375334/experts-call-stronger-reef-protection-20-coral-survey-sites-bleached",
+   "published": "2026-11-22T04:00:12+00:00",
+   "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/21/bf64ac14-9cc2-484c-be66-5b2f16506ba7_4ba5ae84.jpg?itok=o_MCx2uJ&v=1795261998",
+   "source": "South China Morning Post: World",
+   "section": "asia-pacific",
+   "summary": "About 20 per cent of Hong Kong\u2019s coral survey sites recorded minor bleaching this year, as experts called for stronger measures to protect the marine habitats from potential climate effects. \u2026"
+  },
+  {
+   "title": "Chethan Kumar in Parallax: Exploring new frontiers, confronting old gaps",
+   "link": "https://timesofindia.indiatimes.com/science/exploring-new-frontiers-confronting-old-gaps/articleshow/136066718.cms",
+   "published": "2026-11-22T03:39:35+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Bellamy to end Storm coaching stint after 2027 NRL season",
+   "link": "https://www.abc.net.au/news/2026-11-22/nrl-craig-bellamy-melbourne-storm-coaching-end-2027-season/107414288",
+   "published": "2026-11-22T03:38:37+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/17b3cf1ea3d5a68702dcb2b7e0f23156?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=51&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Craig Bellamy says he will depart as Melbourne Storm coach at the end of the 2027 NRL season, after a 25-year stint at the club \u2014 the longest tenure in NRL premiership history."
+  },
+  {
+   "title": "US sells Jammeh-linked mansion, returns $2.5 million to Gambian victims",
+   "link": "https://timesofindia.indiatimes.com/world/us/us-sells-maryland-mansion-allegedly-bought-with-stolen-gambian-public-funds-by-ex-president-yahya-jammeh-returns-2-5-million-to-the-gambia-for-victims-reparations/articleshow/135992099.cms",
+   "published": "2026-11-22T03:35:00+00:00",
+   "image": "https://timesofindia.indiatimes.com/photo/135992099.cms",
+   "source": "The Times of India: World",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Eleven killed in burst of violence during Mexican cartel leader\u2019s capture",
+   "link": "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture?traffic_source=rss",
+   "published": "2026-11-22T03:34:02+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "world",
+   "summary": "Seven alleged cartel gunmen and four soldiers were killed in operation to arrest cartel boss Fausto Isidro Meza Flores."
+  },
+  {
+   "title": "Trump moves to limit congressional scrutiny before Democrats take power of Congress",
+   "link": "https://timesofindia.indiatimes.com/world/us/trump-moves-to-limit-congressional-scrutiny-before-democrats-take-power-of-congress/articleshow/136065847.cms",
+   "published": "2026-11-22T03:32:07+00:00",
+   "image": "https://timesofindia.indiatimes.com/photo/136065847.cms",
+   "source": "The Times of India: World",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Nagano farmers are running out of altitude as warming hits key celery crop",
+   "link": "https://www.japantimes.co.jp/environment/2026/11/22/climate-change/celery-harvest-climate-change/",
+   "published": "2026-11-22T03:25:00+00:00",
+   "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/22/574472.jpg",
+   "source": "The Japan Times",
+   "section": "asia-pacific",
+   "summary": "Farmers have long planted celery on mountainsides in order to find cooler conditions. But as warming accelerates, they're running out of altitude."
+  },
+  {
+   "title": "Rishabh Pant: Of an endless trial and unreal consistency - the MVP checks in!",
+   "link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/rishabh-pant-of-an-endless-trial-and-unreal-consistency-the-mvp-checks-in/articleshow/136066496.cms",
+   "published": "2026-11-22T03:23:30+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "Rishabh Pant has endured a turbulent year, losing his Test vice-captaincy and his place in the ODIs, but his response remains unmistakably his own. In Wellington, he turned a cautious start into an audacious century, completing the SENA set and silencing critics, if only temporarily. \u2026"
+  },
+  {
+   "title": "Facebook, Kramnik-Leko and a 22-year wait: Switzerland prepares for Gukesh-Sindarov clash",
+   "link": "https://timesofindia.indiatimes.com/sports/chess/the-year-facebook-was-born-switzerland-hosted-its-last-world-chess-championship-gukesh-vs-sindarov-next/articleshow/136066271.cms",
+   "published": "2026-11-22T03:12:50+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "Grandmaster Peter Leko\u2019s dramatic clash against Vladimir Kramnik in 2004 was the last World Chess Championship hosted in Switzerland. During an exclusive interaction with TimesofIndia.com, the Hungarian chess veteran reflects on the psychological pressure, preparation challenges and dramatic final game of that\u2026"
+  },
+  {
+   "title": "'Really cruel': How former Wallaby overcame one disease to be hit with another",
+   "link": "https://www.abc.net.au/news/2026-11-22/former-wallaby-nathan-charles-mnd-battle-wedding-plans/107404076",
+   "published": "2026-11-22T03:09:33+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/7ddb025afe3cb8c447549780523ea67d?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=155&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Nathan Charles's parents were told he was unlikely to live past 10 due to cystic fibrosis, now he also has MND but behind the scenes of his battle with the crippling disease is cause for positivity and hope."
+  },
+  {
+   "title": "Sean Astin Mobilizes SAG-AFTRA In Fight For Universal Healthcare As \u201cSubstantial Majority\u201d Of Members Don\u2019t Qualify For Insurance",
+   "link": "https://deadline.com/2026/11/sean-astin-mobilizes-sag-aftra-iuniversal-healthcare-1237231076/",
+   "published": "2026-11-22T03:09:17+00:00",
+   "image": "https://deadline.com/wp-content/uploads/2026/02/GettyImages-1689516333-e1793327854265.jpg",
+   "source": "Deadline",
+   "section": "entertainment",
+   "summary": "As many SAG-AFTRA members struggle to qualify for health insurance, the union is taking the issue to the U.S. government. On Friday, Screen Actors Guild President Sean Astin announced the President\u2019s Healthcare Task Force to address the \u201cbroken healthcare system\u201d while several actors have faced losing their insurance\u2026"
+  },
+  {
+   "title": "Man disappears after jumping into Yarra River from CBD bridge",
+   "link": "https://www.abc.net.au/news/2026-11-22/man-disappears-after-jumping-into-yarra-river-from-bridge/107414220",
+   "published": "2026-11-22T03:08:25+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/7e1db767b974cf82c15613c70108d534?impolicy=wcms_crop_resize&cropH=1361&cropW=2420&xPos=0&yPos=35&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "An emergency search is underway in the heart of Melbourne after the man failed to surface after jumping into the Yarra."
+  },
+  {
+   "title": "Amazon CEO Andy Jassy has a message for Americans opposing data centres",
+   "link": "https://timesofindia.indiatimes.com/technology/tech-news/amazon-ceo-andy-jassy-has-a-message-for-americans-opposing-data-centres-any-scenario-where-the-united-states-stops-and-/articleshow/136066379.cms",
+   "published": "2026-11-22T03:04:06+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "Amazon CEO Andy Jassy says pulling back on AI data centres would be a \"historic mistake\" that lets China set the rules for artificial intelligence. Speaking at Semafor's Silicon Valley & The World, Jassy reaffirmed Amazon's $220 billion capex plan. \u2026"
+  },
+  {
+   "title": "7 members of Army families killed in truck-car collision in Gujarat",
+   "link": "https://timesofindia.indiatimes.com/city/ahmedabad/7-killed-as-speeding-truck-rams-into-car-in-gujarats-kutch-district/articleshow/136066247.cms",
+   "published": "2026-11-22T02:57:25+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "A fatal road accident in Gujarat's Kutch district claimed seven lives after a speeding truck collided with a car. Police are investigating the circumstances surrounding the crash."
+  },
+  {
+   "title": "Two Patriot radars hit? Iran launches missile-drone attack on US bases in Bahrain",
+   "link": "https://timesofindia.indiatimes.com/world/middle-east/two-patriot-radars-hit-iran-launches-missile-drone-attack-on-us-bases-in-bahrain/articleshow/136066291.cms",
+   "published": "2026-11-22T02:55:56+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Russian \u2018triple-tap\u2019 strike on Zelenskyy\u2019s hometown kills child, wounds 60",
+   "link": "https://timesofindia.indiatimes.com/world/rest-of-world/russian-triple-tap-missile-strike-on-zelenskyys-hometown-kills-child-leaves-60-wounded/articleshow/136066210.cms",
+   "published": "2026-11-22T02:48:06+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Endurance athlete swims Strait of Hormuz despite Iran war",
+   "link": "https://www.abc.net.au/news/2026-11-22/strait-of-hormuz-swimmer-highlights-iran-war-impact-on-wildlife/107414066",
+   "published": "2026-11-22T02:47:18+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/d31dc078d1eba5281374e05672cabff3?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "As tankers are attacked and blown up nearby, 56-year-old Englishman Lewis Pugh swims in the Strait of Hormuz to draw attention to how the conflict is threatening the area's habitat and wildlife."
+  },
+  {
+   "title": "Overturned boat carrying mourners to funeral kills at least 24 in Nigeria",
+   "link": "https://www.aljazeera.com/news/2026/11/22/overturned-boat-carrying-mourners-to-funeral-kills-at-least-four-in-nigeria?traffic_source=rss",
+   "published": "2026-11-22T02:45:36+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "africa",
+   "summary": "Police say the boat driver fled and the vessel\u2019s manager was taken into custody."
+  },
+  {
+   "title": "Man found dead on Flinders Island believed to have been shot by officer, police say",
+   "link": "https://www.theguardian.com/australia-news/2026/nov/22/man-found-dead-on-flinders-island-linked-to-shooting-of-police-officer-tasmanian-authorities-say",
+   "published": "2026-11-22T02:44:01+00:00",
+   "image": "https://i.guim.co.uk/img/media/37ac1eff6d2198604ce1f56e02ba752ac5645c8a/531_0_4102_3283/master/4102.jpg?width=140&quality=85&auto=format&fit=max&s=26d1f4dbd1fc4ff0ffb581dcebb1e837",
+   "source": "The Guardian: World",
+   "section": "asia-pacific",
+   "summary": "The sergeant, who was shot, fired his weapon a number of times after alleged \u2018targeted\u2019 attack outside island\u2019s police station Get our breaking news email , free app or daily news podcast A police officer who was shot outside a remote Tasmanian police station is alleged to have shot and killed his attacker in response\u2026"
+  },
+  {
+   "title": "Chinese teen girl who dreams of becoming a soldier runs into burning home to save 2 kids",
+   "link": "https://www.scmp.com/news/people-culture/trending-china/article/3375355/chinese-teen-girl-who-dreams-becoming-soldier-runs-burning-home-save-2-kids",
+   "published": "2026-11-22T02:42:18+00:00",
+   "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/22/826133e0-23df-4a16-91e5-9309b36b52de_e677642e.jpg?itok=SMcQo_2A&v=1795315326",
+   "source": "South China Morning Post: World",
+   "section": "asia-pacific",
+   "summary": "A 14-year-old student in central China has won widespread admiration on social media for braving a fire to rescue two toddlers while on her way home after taking sick leave from school. \u2026"
+  },
+  {
+   "title": "Endangered rattlesnake gives birth to seven babies after mate's death",
+   "link": "https://timesofindia.indiatimes.com/science/wildlife/an-endangered-rattlesnake-gave-birth-to-seven-babies-after-her-mate-was-killed-on-a-road-toronto-zoo-is-raising-them-to-return-his-rare-genetic-line-to-the-wild/articleshow/135888034.cms",
+   "published": "2026-11-22T02:36:08+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Flatbush Collapse Lawsuit: Tenant alleges landlord ignored cracks; claims remain unproven",
+   "link": "https://timesofindia.indiatimes.com/world/us/a-brooklyn-musician-says-he-photographed-cracks-weeks-before-an-apartment-building-collapsed-and-killed-eight-people-his-new-lawsuit-claims-the-landlord-ignored-his-warnings-as-construction-continued-next-door/articleshow/136046165.cms",
+   "published": "2026-11-22T02:35:48+00:00",
+   "image": "https://timesofindia.indiatimes.com/photo/136046165.cms",
+   "source": "The Times of India: World",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
+   "title": "Parents urge driver to 'take responsibility' after son's hit and run death",
+   "link": "https://www.abc.net.au/news/2026-11-22/joshua-howard-death-appeal-sue-and-peter-howard/107414052",
+   "published": "2026-11-22T02:31:19+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/9cb0599cdd2774d7b26df6c3f25d4197?impolicy=wcms_crop_resize&cropH=856&cropW=1522&xPos=66&yPos=0&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "The family of Joshua Howard have held back tears in appealing to find the driver who struck their son earlier this month."
+  },
+  {
+   "title": "A year of grief: Tai Po fire residents on coping with loss and trying to move on",
+   "link": "https://www.scmp.com/news/hong-kong/society/article/3375345/year-grief-tai-po-fire-residents-coping-loss-and-trying-move",
+   "published": "2026-11-22T02:30:06+00:00",
+   "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/21/0f47539c-11bc-4083-a106-ec46e719809a_27a74fa0.jpg?itok=TlIMyhs2&v=1795274141",
+   "source": "South China Morning Post: World",
+   "section": "europe",
+   "summary": "What has life been like for the residents of Wang Fuk Court displaced by the deadly blaze of last November? Lo Hoi-ying speaks to residents as part of a series on the first anniversary of the Tai Po fire. Vivian Lee had just finished lunch and was resting at home when she smelled smoke. \u2026"
+  },
+  {
+   "title": "Former US President George Washington's hair sells for $4,000",
+   "link": "https://timesofindia.indiatimes.com/world/us/former-us-president-george-washingtons-hair-sells-for-4000/articleshow/136066072.cms",
+   "published": "2026-11-22T02:28:53+00:00",
+   "image": "https://timesofindia.indiatimes.com/photo/136066072.cms",
+   "source": "The Times of India: World",
+   "section": "americas",
+   "summary": ""
+  },
+  {
+   "title": "Unprecedented! Gill's India achieve a first in 149-year history of Test cricket",
+   "link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/unprecedented-shubman-gills-india-achieve-a-first-in-149-year-history-of-test-cricket-with-seven-consecutive-50-run-partnerships/articleshow/136066014.cms",
+   "published": "2026-11-22T02:28:48+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "The visitors took a lead of 352 runs after New Zealand had been bowled out for 368 in their first innings. India's total of 720 was also the highest team score recorded in New Zealand."
+  },
+  {
+   "title": "Hong Kong Election Committee race: over 80% of voters cast ballots by noon",
+   "link": "https://www.scmp.com/news/hong-kong/politics/article/3375354/hong-kong-election-committee-race-long-lines-polling-stations-voting-begins",
+   "published": "2026-11-22T02:26:45+00:00",
+   "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/22/66e88af2-3cfb-474c-a12d-a228cab24c4c_e140caf9.jpg?itok=NDW7dBFZ&v=1795322577",
+   "source": "South China Morning Post: World",
+   "section": "asia-pacific",
+   "summary": "A total of 856 candidates are vying for 723 seats across the 31 subsectors. The elected members will join 259 members from five uncontested subsectors, 362 ex officio members and 156 members nominated by designated bodies to form the 1,500-strong electoral college. \u2026"
+  },
+  {
+   "title": "Government launches inquiry into peptides amid surge in hospital visits",
+   "link": "https://www.abc.net.au/news/2026-11-22/health-minister-mark-butler-orders-peptide-inquiry/107414136",
+   "published": "2026-11-22T02:26:36+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/336554c115138a5af032267fc3d708f7?impolicy=wcms_crop_resize&cropH=978&cropW=1738&xPos=262&yPos=0&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Mark Butler has ordered an inquiry into peptides amid concerns about unsafe online prescribing practices and an alarming surge in hospital visits linked to the substances."
+  },
+  {
+   "title": "\u2018Horrific\u2019 ICE arrests at Seattle airport jet bridge rattle passengers, fuel outrage",
    "link": "https://www.scmp.com/news/world/united-states-canada/article/3375353/horrific-ice-arrests-seattle-airport-jet-bridge-rattles-passengers-fuels-outrage",
    "published": "2026-11-22T02:14:54+00:00",
    "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/22/87fca1b4-89bc-4ed7-86c7-80966c5620e4_19b2ac19.jpg?itok=0q90NTwd&v=1795313677",
@@ -11,22 +515,67 @@
    "summary": "Masked immigration officers detained two people on a crowded airport jet bridge in Seattle as people were boarding on Saturday, causing what Alaska Airlines called a \u201cdistressing\u201d scene for passengers and employees and delaying the Los Angeles-bound flight. \u2026"
   },
   {
-   "title": "Victorian Greens seek urgent injunction over how-to-vote cards mimicking party\u2019s branding but preferencing it last",
+   "title": "Displaced Palestinians protest as Israeli air strikes continue in Gaza",
+   "link": "https://www.aljazeera.com/news/2026/11/22/displaced-palestinians-protest-as-israeli-air-strikes-continue-in-gaza?traffic_source=rss",
+   "published": "2026-11-22T02:14:18+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "middle-east",
+   "summary": "Israeli forces continue to destroy residential buildings as part of a 'gradual displacement' policy, a Gaza mayor says."
+  },
+  {
+   "title": "Greens win court fight against Prahran independent how to-vote-cards",
+   "link": "https://www.abc.net.au/news/2026-11-22/victorian-greens-win-court-injunction-liberal-labor-pledges/107414054",
+   "published": "2026-11-22T02:12:38+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/2084f210f91ee9b170e8caca03f86618?impolicy=wcms_crop_resize&cropH=703&cropW=1250&xPos=0&yPos=0&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "The Greens took independent candidate Tosh-Jake Finnigan to the Supreme Court, arguing they were imitating the minor party's colours and font."
+  },
+  {
+   "title": "9 family members killed as pilgrims' vehicle crashes into truck in Rajasthan",
+   "link": "https://timesofindia.indiatimes.com/city/jaipur/9-devotees-returning-from-khatu-shyam-temple-killed-as-their-vehicle-rams-parked-truck-in-rajasthans-kota/articleshow/136065930.cms",
+   "published": "2026-11-22T02:09:05+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "Nine individuals died in a tragic accident involving a vehicle carrying family members in Rajasthan. The group was returning home from visiting a religious shrine in Khatu Shyam. The accident occurred near Shambhupura on the Kota-Udaipur highway during the night. \u2026"
+  },
+  {
+   "title": "Victorian Greens win injunction over how-to-vote cards mimicking party\u2019s branding but preferencing it last",
    "link": "https://www.theguardian.com/australia-news/2026/nov/21/victorian-greens-seek-urgent-injunction-over-how-to-vote-cards-mimicking-branding-but-preferencing-it-last-ntwnfb",
    "published": "2026-11-22T02:08:49+00:00",
    "image": "https://i.guim.co.uk/img/media/96ab340872e588ad309196b07390be6b1c05c064/0_0_935_748/master/935.jpg?width=140&quality=85&auto=format&fit=max&s=cb157e8ba631ea73ff9af551de474e32",
    "source": "The Guardian: World",
    "section": "asia-pacific",
-   "summary": "Exclusive: Independent candidate Tosh-Jake Finnigan\u2019s cards instruct people to vote in a way that would benefit Liberal party Get our daily political email , free app or daily news podcast The Victorian Greens have won a supreme court injunction to stop an independent candidate from handing out how to vote cards that\u2026"
+   "summary": "Exclusive: Independent candidate Tosh-Jake Finnigan\u2019s cards instructed people to vote in a way that would benefit Liberal party Get our daily political email , free app or daily news podcast The Victorian Greens have won a supreme court injunction to stop an independent candidate from handing out how to vote cards\u2026"
   },
   {
-   "title": "Live: Piastri starts 17th after penalty for F1 Las Vegas Grand Prix",
+   "title": "Bessent confirms he\u2019s living on US military base over Iran fears",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/22/bessent-confirms-hes-living-on-us-military-base-over-iran-fears?traffic_source=rss",
+   "published": "2026-11-22T02:05:50+00:00",
+   "image": "",
+   "source": "Al Jazeera",
+   "section": "americas",
+   "summary": "US Treasury Secretary Scott Bessent says he\u2019s still living at a US military base, two weeks after an Israeli warning."
+  },
+  {
+   "title": "Live: Piastri in the fight for Vegas win despite driving a 'sitting duck'",
    "link": "https://www.abc.net.au/news/2026-11-22/f1-live-las-vegas-grand-prix-oscar-piastri/106998746",
    "published": "2026-11-22T02:05:49+00:00",
-   "image": "https://live-production.wcms.abc-cdn.net.au/810e495bd240122bfb81f5047645562f?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
+   "image": "https://live-production.wcms.abc-cdn.net.au/5797f07a99ededeabdd35175239dd795?impolicy=wcms_crop_resize&cropH=2812&cropW=5000&xPos=0&yPos=132&width=862&height=485",
    "source": "ABC News (Australia)",
    "section": "asia-pacific",
    "summary": "The glitz and glamour of Formula 1 meets the bright lights of the Las Vegas Strip for this afternoon's grand prix. Follow live."
+  },
+  {
+   "title": "720/9! Team India rewrite record books, post highest-ever Test total in NZ",
+   "link": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/720/9-team-india-rewrite-record-books-post-highest-ever-test-total-in-new-zealand/articleshow/136065916.cms",
+   "published": "2026-11-22T02:04:15+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "India's 720/9 became the biggest total ever scored in a Test innings on New Zealand soil. The previous best was the hosts' 715/6 declared against Bangladesh in Hamilton in 2019. India also broke the record for the highest Test total against New Zealand. \u2026"
   },
   {
    "title": "Singapore hosts 8 of the top 10 drug makers \u2013 now it needs commercial wins",
@@ -38,6 +587,15 @@
    "summary": "Singapore has long sought to become Southeast Asia\u2019s premier biomedicine hub \u2013 with its investments and initiatives having already attracted some of the world\u2019s biggest pharmaceutical manufacturers. \u2026"
   },
   {
+   "title": "Bank accounts with deposits of over 100 million yen surge: BOJ",
+   "link": "https://www.japantimes.co.jp/business/2026/11/22/bank-deposits-100-million/",
+   "published": "2026-11-22T02:00:00+00:00",
+   "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/22/575349.jpg",
+   "source": "The Japan Times",
+   "section": "asia-pacific",
+   "summary": "The figure rose 3.6-fold from the end of September 2000, when comparable data became available."
+  },
+  {
    "title": "Frustration mounts as Manchester City\u2019s slump continues",
    "link": "https://www.japantimes.co.jp/sports/2026/11/22/soccer/manchester-city-fulham-draw/",
    "published": "2026-11-22T01:58:00+00:00",
@@ -47,7 +605,7 @@
    "summary": "Thousands of home supporters headed for the exits before the end of the match. Those who remained greeted the final whistle with a chorus of boos."
   },
   {
-   "title": "Watch: Masked ICE agents drag away two at US\u2019 Seattle airport",
+   "title": "Watch: Masked ICE agents drag away two flyers at US airport during boarding",
    "link": "https://timesofindia.indiatimes.com/world/us/watch-masked-ice-agents-drag-away-two-at-us-seattle-airport-spark-chaos-during-boarding/articleshow/136065874.cms",
    "published": "2026-11-22T01:57:47+00:00",
    "image": "",
@@ -137,7 +695,16 @@
    "summary": "In his keynote speech at the Apec CEO Summit in Shenzhen on November 18, President Xi Jinping quoted the ancient Chinese saying \u201cfan yi zhi dao yu shi jie xing\u201d, which suggests that all approaches must move with the times to be of benefit. \u2026"
   },
   {
-   "title": "Remote island's 30,000-hectare carbon forestry project begins",
+   "title": "Japan\u2019s Princess Aiko returns from Singapore visit",
+   "link": "https://www.japantimes.co.jp/news/2026/11/22/japan/princess-aiko-returns-singapore-visit/",
+   "published": "2026-11-22T01:27:00+00:00",
+   "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/22/575342.jpg",
+   "source": "The Japan Times",
+   "section": "asia-pacific",
+   "summary": "Before departing for Japan, the princess visited the Merlion, a landmark symbolizing Singapore, earlier in the day."
+  },
+  {
+   "title": "30,000-hectare carbon forestry project shoots up on remote island",
    "link": "https://www.abc.net.au/news/2026-11-22/new-chapter-for-tiwi-forestry-with-eucalyptus-pellita-plantation/107369820",
    "published": "2026-11-22T01:26:45+00:00",
    "image": "https://live-production.wcms.abc-cdn.net.au/b9afbdddf086ac8780a684dd6b01ca4f?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
@@ -171,6 +738,24 @@
    "source": "The Times of India: Top Stories",
    "section": "asia-pacific",
    "summary": "Rishabh Pant achieved a remarkable milestone by scoring Test centuries in all four SENA countries. His latest contribution was a century against New Zealand in Wellington. This century marked his return to international cricket after a brief injury hiatus. \u2026"
+  },
+  {
+   "title": "Scotland overpowers Japan in Nations Championship clash",
+   "link": "https://www.japantimes.co.jp/sports/2026/11/22/more-sports/scotland-routs-brave-blossoms/",
+   "published": "2026-11-22T01:15:00+00:00",
+   "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/22/575334.jpg",
+   "source": "The Japan Times",
+   "section": "asia-pacific",
+   "summary": "Japan, which was crushed 78-15 by England last weekend, has now lost all three games in November."
+  },
+  {
+   "title": "LDP executive hints at replacing scandal-hit education minister",
+   "link": "https://www.japantimes.co.jp/news/2026/11/22/japan/ldp-replacing-scandal-minister/",
+   "published": "2026-11-22T01:14:00+00:00",
+   "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/22/575340.jpg",
+   "source": "The Japan Times",
+   "section": "asia-pacific",
+   "summary": "Education Minister Yoshihiro Seki faces criticism over political fundraising parties."
   },
   {
    "title": "COP31: UN Climate summit runs into second day of overtime",
@@ -308,6 +893,15 @@
    "summary": "Pant became the sixth Indian batter to score a Test hundred in a SENA country, joining Mohammad Azharuddin, Sachin Tendulkar, Rahul Dravid, Virat Kohli and KL Rahul on the list."
   },
   {
+   "title": "After Akvan, another cyclonic circulation brewing in Bay: IMD",
+   "link": "https://timesofindia.indiatimes.com/city/bhubaneswar/after-akvan-another-cyclonic-circulation-brewing-in-bay-imd/articleshow/136062253.cms",
+   "published": "2026-11-22T00:34:00+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "The India Meteorological Department warns of a potential new cyclonic circulation expected to form by the end of November, following the recent weakening of Cyclone Akvan into a low-pressure area over interior Odisha. \u2026"
+  },
+  {
    "title": "Fred Nile, former NSW politician and figurehead of the rightwing Christian Democratic party, dies aged 92",
    "link": "https://www.theguardian.com/australia-news/2026/nov/22/fred-nile-former-nsw-politician-and-figurehead-of-the-rightwing-christian-democratic-party-dies-aged-92",
    "published": "2026-11-22T00:26:35+00:00",
@@ -333,6 +927,15 @@
    "source": "The Times of India: Top Stories",
    "section": "asia-pacific",
    "summary": "For nearly thirty years, Mundubai Irappa Davre from Latur, Maharashtra, battled to reclaim her 4.5 acres of farmland after losing it to a moneylender. Despite the struggles and obstacles she faced, including borrowing Rs 25,000 for her daughter's wedding, she persevered. \u2026"
+  },
+  {
+   "title": "Police mistakenly salute Owaisi; inquiry ordered over protocol lapse",
+   "link": "https://timesofindia.indiatimes.com/city/lucknow/owaisi-accorded-guard-of-honour-meant-for-sc-judge-in-saharanpur/articleshow/136062217.cms",
+   "published": "2026-11-22T00:15:00+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "Asaduddin Owaisi arrived at the Saharanpur circuit house for a scheduled meeting regarding a mosque demolition. Police guards mistakenly accorded him a ceremonial guard of honour, which was intended for a Supreme Court judge. The confusion arose due to the timing of both arrivals, leading to an unusual situation. \u2026"
   },
   {
    "title": "FBI reportedly investigating apparent hack of its criminal database",
@@ -458,7 +1061,16 @@
    "image": "https://live-production.wcms.abc-cdn.net.au/d98d860c8653fb84458ad4bd36b460f2?impolicy=wcms_crop_resize&cropH=1680&cropW=2983&xPos=17&yPos=154&width=862&height=485",
    "source": "ABC News (Australia)",
    "section": "asia-pacific",
-   "summary": "The veteran NSW MP, who spent 40 years in politics, passed away on Saturday, his family says."
+   "summary": "Reverend Nile, who spent 40 years in politics, passed away on Saturday, his family says."
+  },
+  {
+   "title": "Ukraine strains Russian logistics with Crimean bridge strikes",
+   "link": "https://www.japantimes.co.jp/news/2026/11/22/world/ukraine-russia-logistics-crimean-bridge-strikes/",
+   "published": "2026-11-21T23:55:00+00:00",
+   "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/22/575328.JPG",
+   "source": "The Japan Times",
+   "section": "asia-pacific",
+   "summary": "Last week's attacks pile pressure on an already strained logistics network in ways that Russia could struggle to mitigate."
   },
   {
    "title": "As Trump basks in summit pomp, China\u2019s Xi strengthens his hand",
@@ -468,6 +1080,15 @@
    "source": "The Japan Times",
    "section": "asia-pacific",
    "summary": "Xi emerged from a global gathering in China as a statesman who can keep a fragile trade truce with the U.S. in a holding pattern \u2014 where he likes it."
+  },
+  {
+   "title": "Republicans\u2019 midterm defeat corners JD Vance as 2028 field widens",
+   "link": "https://www.japantimes.co.jp/news/2026/11/22/world/politics/republican-midterm-jd-vance/",
+   "published": "2026-11-21T23:53:00+00:00",
+   "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/22/575324.jpg",
+   "source": "The Japan Times",
+   "section": "asia-pacific",
+   "summary": "The U.S. vice president must balance his fealty to MAGA while distancing himself from Donald Trump, whose approval rating hovers near 37%."
   },
   {
    "title": "Nigeria: At least 24 dead after boat capsizes",
@@ -497,10 +1118,10 @@
    "summary": "Joseph Aoun says 'two fundamental obstacles, inseparably linked' mean Lebanon cannot fully celebrate its independence."
   },
   {
-   "title": "Logan man charged with murder after wife found stabbed in the chest",
+   "title": "Logan man charged with murder after wife found stabbed",
    "link": "https://www.abc.net.au/news/2026-11-22/slacks-creek-murder-change/107413926",
    "published": "2026-11-21T23:41:54+00:00",
-   "image": "https://live-production.wcms.abc-cdn.net.au/f917c77df74196a9bcf26e8ec453a8ef?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+   "image": "https://live-production.wcms.abc-cdn.net.au/74b17767705cd684d25b371c5057ee93?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
    "source": "ABC News (Australia)",
    "section": "asia-pacific",
    "summary": "First responders attempted to save the 28-year-old woman, who had a single stab wound to her chest."
@@ -632,15 +1253,6 @@
    "summary": "Bystanders who pulled a man from a burning car in Canberra's inner north this morning are being praised by police."
   },
   {
-   "title": "Sarah advertised for a roommate. The love of her life applied",
-   "link": "https://www.abc.net.au/news/2026-11-22/from-roommates-to-soul-mates/107389996",
-   "published": "2026-11-21T23:00:00+00:00",
-   "image": "https://live-production.wcms.abc-cdn.net.au/dfeba387cf1b88b0c9fa96a60eef1795?impolicy=wcms_crop_resize&cropH=1400&cropW=2488&xPos=0&yPos=983&width=862&height=485",
-   "source": "ABC News (Australia)",
-   "section": "asia-pacific",
-   "summary": "Sarah didn't list \"love of my life\" as one of the criteria when advertising for a roommate. But applicant Billy ended up being just that."
-  },
-  {
    "title": "\u2018Armored Trooper VOTOMS: Die Graue Hexe\u2019: Sci-fi franchise gets a stylish reboot",
    "link": "https://www.japantimes.co.jp/culture/2026/11/22/film/armored-trooper-votoms-die-graue-hexe/",
    "published": "2026-11-21T23:00:00+00:00",
@@ -659,13 +1271,13 @@
    "summary": "\"Datemaki\" omelets are a traditional feature of multicourse osechi ry\u014dri new-year cuisine."
   },
   {
-   "title": "Man found dead on Flinders Island linked to shooting of police officer, Tasmanian authorities say",
-   "link": "https://www.theguardian.com/australia-news/2026/nov/22/man-found-dead-on-flinders-island-linked-to-shooting-of-police-officer-tasmanian-authorities-say",
-   "published": "2026-11-21T22:41:36+00:00",
-   "image": "https://i.guim.co.uk/img/media/37ac1eff6d2198604ce1f56e02ba752ac5645c8a/531_0_4102_3283/master/4102.jpg?width=140&quality=85&auto=format&fit=max&s=26d1f4dbd1fc4ff0ffb581dcebb1e837",
-   "source": "The Guardian: World",
-   "section": "americas",
-   "summary": "Body of a man in his 20s discovered by police who were sent to investigate the shooting of an officer, who is in a serious but stable condition Get our breaking news email , free app or daily news podcast An on-duty police officer has been shot and a man found dead nearby as police investigate two firearm incidents in\u2026"
+   "title": "Sarah advertised for a roommate. The love of her life applied",
+   "link": "https://www.abc.net.au/news/2026-11-22/from-roommates-to-soul-mates/107389996",
+   "published": "2026-11-21T23:00:00+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/dfeba387cf1b88b0c9fa96a60eef1795?impolicy=wcms_crop_resize&cropH=1400&cropW=2488&xPos=0&yPos=983&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Sarah didn't list \"love of my life\" as one of the criteria when advertising for a roommate. But applicant Billy ended up being just that."
   },
   {
    "title": "ATP Finals final: Zverev gets his chance to silence critics against Alcaraz",
@@ -677,15 +1289,6 @@
    "summary": "Alcaraz leads Zverev 7-6 in their career meetings. The Spaniard also won their only meeting this year, in the Australian Open semi-finals."
   },
   {
-   "title": "Victorian farmers get creative with book-inspired hay bale sculptures",
-   "link": "https://www.abc.net.au/news/2026-11-22/upper-murray-hay-bale-art-trail-fire-flood-recovery/107390424",
-   "published": "2026-11-21T22:33:00+00:00",
-   "image": "https://live-production.wcms.abc-cdn.net.au/2171bcc3b4223224c01a67bdab5690b7?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
-   "source": "ABC News (Australia)",
-   "section": "asia-pacific",
-   "summary": "Farmers in the Upper Murray have been getting creative making a hay bale art trail."
-  },
-  {
    "title": "Mao Shimada wins Finlandia Trophy to book spot in Grand Prix Final",
    "link": "https://www.japantimes.co.jp/sports/2026/11/22/more-sports/mao-shimada-wins-finland/",
    "published": "2026-11-21T22:33:00+00:00",
@@ -693,6 +1296,15 @@
    "source": "The Japan Times",
    "section": "asia-pacific",
    "summary": "Shimada, a four-time world junior champion, secured the second win of her debut season after taking gold at Skate Canada earlier this month"
+  },
+  {
+   "title": "Victorian farmers get creative with book-inspired hay bale sculptures",
+   "link": "https://www.abc.net.au/news/2026-11-22/upper-murray-hay-bale-art-trail-fire-flood-recovery/107390424",
+   "published": "2026-11-21T22:33:00+00:00",
+   "image": "https://live-production.wcms.abc-cdn.net.au/2171bcc3b4223224c01a67bdab5690b7?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
+   "source": "ABC News (Australia)",
+   "section": "asia-pacific",
+   "summary": "Farmers in the Upper Murray have been getting creative making a hay bale art trail."
   },
   {
    "title": "Xi\u2019s bay-area vision offers scope for cooperation despite US, Tokyo hurdles: analysts",
@@ -1253,6 +1865,15 @@
    "summary": "League leaders Arsenal miss the chance to go eight points clear of second placed Brighton, who play on Sunday."
   },
   {
+   "title": "Probe ordered into Naveen, Pandian foreign trips",
+   "link": "https://timesofindia.indiatimes.com/city/bhubaneswar/cm-orders-probe-into-naveen-pandian-foreign-trips/articleshow/136058759.cms",
+   "published": "2026-11-21T19:53:00+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "CM Mohan Charan Majhi ordered an inquiry into foreign visits undertaken by former CM Naveen Patnaik, retired IAS officer V K Pandian and IPS officer Ravi Kant during 2022 to 2024 following allegations of discrepancies and lack of transparency in expenditure related to the trips."
+  },
+  {
    "title": "Jeff Goldblum Performs a Piano Medley and Reflects on His Career at Marrakech Film Festival: \u2018The Stories That We Tell Matter\u2019",
    "link": "https://variety.com/2026/film/global/jeff-goldblum-career-marrakech-film-festival-tilda-swinton-1236954972/",
    "published": "2026-11-21T19:51:33+00:00",
@@ -1316,7 +1937,7 @@
    "summary": "CAA chief Bryan Lourd is urging the full Congress to pass the No Fakes Act and deliver it to President Trump for signature, a move Lourd says would protect everyone, famous or not, from nonconsensual digital replicas of their voices and likenesses. \u2026"
   },
   {
-   "title": "Alarms ring as 580 army drone tenders seek China-linked parts, industry body flags security risk",
+   "title": "580 army drone tenders seek China-linked parts, industry body flags security risk",
    "link": "https://timesofindia.indiatimes.com/defence/news/alarms-ring-as-military-drone-tenders-specify-china-linked-parts-indian-industry-cites-security-risk/articleshow/136062501.cms",
    "published": "2026-11-21T19:32:57+00:00",
    "image": "",
@@ -1487,6 +2108,15 @@
    "summary": "Jared Schurr arrested in Mississippi after Lizeht Rodriguez and Woodrow Scott died in otherwise unrelated killings A man recently strangled a woman to death whom he did not know along a hiking trail north of New Orleans \u2013 then killed his co-worker with a crossbow two days later before being arrested in Mississippi\u2026"
   },
   {
+   "title": "'As Mumbai Indians we feel like underdogs now': MI coach Robin Uthappa",
+   "link": "https://timesofindia.indiatimes.com/sports/cricket/news/as-mumbai-indians-we-feel-like-underdogs-now-we-need-to-earn-our-straps-back-batting-coach-robin-uthappa/articleshow/136061795.cms",
+   "published": "2026-11-21T18:45:11+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "Robin Uthappa's appointment as Mumbai Indians' batting coach marks a new chapter in his cricketing journey, one that has quietly taken shape through individual coaching over the past few years. \u2026"
+  },
+  {
    "title": "Tsunami response window shorter after staff pulled from remote island",
    "link": "https://www.abc.net.au/news/2026-11-22/tsunami-response-time-reduced-macquarie-island-staff-removal/107404714",
    "published": "2026-11-21T18:45:00+00:00",
@@ -1514,13 +2144,13 @@
    "summary": "Russia launched more than 400 drones and 110 missiles across Ukraine overnight, killing at least seven in Kyiv."
   },
   {
-   "title": "Texas Fraud Charges: Man allegedly won 70 contracts; counterfeit gear raises concerns",
+   "title": "Texas man accused of posing as veteran to win $1.6m contracts, supply fake gear",
    "link": "https://timesofindia.indiatimes.com/world/us/a-texas-businessman-who-prosecutors-say-never-served-in-the-military-allegedly-posed-as-a-veteran-and-federal-contracting-officer-to-win-more-than-1-6-million-in-government-contracts-and-supply-counterfeit-equipment/articleshow/136054191.cms",
    "published": "2026-11-21T18:39:50+00:00",
-   "image": "https://timesofindia.indiatimes.com/photo/136054191.cms",
-   "source": "The Times of India: World",
+   "image": "",
+   "source": "The Times of India: Top Stories",
    "section": "asia-pacific",
-   "summary": ""
+   "summary": "Marcelo Fascino, a 24-year-old from San Antonio, Texas, stands accused of securing more than $1.6 million in federal contracts by deceitfully claiming his business was owned by veterans. \u2026"
   },
   {
    "title": "Beverly Hills penthouse sells for $21M, with rooftop pool and $18,740 monthly dues",
@@ -2009,7 +2639,7 @@
    "summary": "Week-long efforts fail to establish negotiating mandate on AI warfare after Russian \u2018filibustering\u2019 Week-long efforts to agree a negotiating mandate for a legally binding international treaty to control the use of autonomous weapons collapsed just before 5am after all-night talks failed to overcome Russian objections. \u2026"
   },
   {
-   "title": "Cricketer Yuzvendra Chahal joins BJP, gets role in OBC committee",
+   "title": "Cricketer Yuzvendra Chahal joins BJP, gets role in OBC morcha executive committee",
    "link": "https://timesofindia.indiatimes.com/india/cricketer-yuzvendra-chahal-joins-bjp-gets-role-in-obc-morcha-executive-committee/articleshow/136059077.cms",
    "published": "2026-11-21T16:32:57+00:00",
    "image": "",
@@ -3115,6 +3745,15 @@
    "summary": "In Ethiopia, entrepreneur Hanan Ahmed is tackling period poverty and the stigma surrounding menstruation. By producing affordable reusable sanitary pads and raising awareness in schools, she hopes to make menstrual health more accessible and help girls stay in class. Report by Awa Diouf & Guillaume Gougeon."
   },
   {
+   "title": "In bizarre mix-up, Owaisi gets guard of honour meant for Supreme Court judge in UP",
+   "link": "https://timesofindia.indiatimes.com/india/in-bizarre-mix-up-asaduddin-owaisi-accorded-guard-of-honour-meant-for-supreme-court-judge-in-uttar-pradesh/articleshow/136053568.cms",
+   "published": "2026-11-21T12:22:31+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": ""
+  },
+  {
    "title": "Florida residents turn to kayaks and rafts as floods swamp streets",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/florida-residents-turn-to-kayaks-and-rafts-as-floods-swamp-streets?traffic_source=rss",
    "published": "2026-11-21T12:22:24+00:00",
@@ -3674,6 +4313,15 @@
    "source": "South China Morning Post: World",
    "section": "asia-pacific",
    "summary": "With a history as long as China\u2019s, some cultural traditions are bound to fade into antiquity. This is especially true of food, which can change dramatically within a single lifetime. Some changes are fundamental, making it almost impossible to imagine the culture without them; others are quirks of history. \u2026"
+  },
+  {
+   "title": "10-year-old Anvi swims 36 km to Gateway of India in 8.5 hours",
+   "link": "https://timesofindia.indiatimes.com/life-style/people/meet-anvi-suvarna-the-10-year-old-from-dombivli-who-swam-36-km-to-mumbais-gateway-of-india-in-8-hours-34-minutes-after-covering-17-km-only-last-year/articleshow/136047301.cms",
+   "published": "2026-11-21T09:58:30+00:00",
+   "image": "",
+   "source": "The Times of India: Top Stories",
+   "section": "asia-pacific",
+   "summary": "Anvi Suvarna, a 10-year-old swimmer from Dombivli, completed a significant 36-km swim in open water. This achievement follows her earlier 17-km swim, marking notable progress in her endurance training. Her swim aimed to raise awareness about water conservation and marine pollution issues facing Maharashtra. \u2026"
   },
   {
    "title": "Pennsylvania county sold home for $109,000 after notices went to dead owner; court sets sale aside",
@@ -4582,7 +5230,7 @@
    "link": "https://www.scmp.com/week-asia/economics/article/3375246/japan-wants-asian-energy-agency-will-region-buy",
    "published": "2026-11-21T02:00:10+00:00",
    "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/7d784394-d5f6-4d8d-84e0-b63315fa023a_e0c9abe5.jpg?itok=NboUJV4w&v=1795169470",
-   "source": "South China Morning Post: World",
+   "source": "South China Morning Post: Asia",
    "section": "asia-pacific",
    "summary": "Asia already has oil-sharing pacts it has never used. Now, Japan wants to add another that critics warn will do little to solve the region\u2019s dependence on energy imports and may simply add another level of bureaucracy. \u2026"
   },
@@ -4600,7 +5248,7 @@
    "link": "https://www.scmp.com/opinion/world-opinion/article/3374874/who-are-you-calling-chinese-honeypot",
    "published": "2026-11-21T01:30:06+00:00",
    "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/20/56959851-06f5-464d-b301-3a866d206e67_0311d0ee.jpg?itok=6qxhehs1&v=1795143701",
-   "source": "South China Morning Post: World",
+   "source": "South China Morning Post: Asia",
    "section": "asia-pacific",
    "summary": "\u201cPlease stop being such a Chinese honeypot.\u201d When reports emerged alleging that then-Nvidia chief executive Jensen Huang had been romantically involved with a Chinese woman suspected of espionage, my inbox filled with remarks from friends and acquaintances about my supposed career as a Chinese spy. \u2026"
   },
@@ -7135,8 +7783,8 @@
    "link": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
    "published": "2026-11-19T17:13:23+00:00",
    "image": "https://i.guim.co.uk/img/media/8a7d32d3197bc67811a5805eb05a308525f47b92/153_59_1632_1306/master/1632.jpg?width=140&quality=85&auto=format&fit=max&s=92c6d97e2934ea2f2295ecc777f5fa09",
-   "source": "The Guardian: World",
-   "section": "europe",
+   "source": "The Guardian: Asia-Pacific",
+   "section": "asia-pacific",
    "summary": "Xi, Putin and Trump outline priorities that include UN reform, boosting oil supplies and \u2018protection of diplomatic immunity\u2019 China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the\u2026"
   },
   {
@@ -7672,69 +8320,6 @@
    "source": "South China Morning Post: Asia",
    "section": "asia-pacific",
    "summary": "Campaigners in Asia are taking advantage of the presence of global leaders in the region this week to urge governments to redouble efforts to uproot the scam centres whose bosses continue to swindle billions of dollars from hideouts in Myanmar and other parts of the Mekong. \u2026"
-  },
-  {
-   "title": "Middle East crisis poses 'largest threat' to energy security in history, warns IEA",
-   "link": "https://www.france24.com/en/middle-east/20261119-middle-east-crisis-energy-security-iea",
-   "published": "2026-11-19T05:11:59+00:00",
-   "image": "https://s.france24.com/media/display/bfcf9412-e37f-11f1-92da-1ba7ddfab527/w:1024/p:16x9/AP26318617092767.jpg",
-   "source": "France 24: Middle East",
-   "section": "middle-east",
-   "summary": "The International Energy Agency said on Thursday that the Middle East crisis triggered by US and Israeli strikes on Iran in February posed the \u201clargest threat\u201d to energy security in history. It warned that consumers were bearing more of the costs as Iran\u2019s blockade of the Strait of Hormuz disrupted oil shipments."
-  },
-  {
-   "title": "Datacentres to create 70% more carbon emissions by 2030, IEA report warns",
-   "link": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns",
-   "published": "2026-11-19T05:00:18+00:00",
-   "image": "https://i.guim.co.uk/img/media/2ea7dda4257fc43543719a2d375cd85a1ce8cdb4/0_0_7157_5728/master/7157.jpg?width=140&quality=85&auto=format&fit=max&s=bacf77eb19490db5a05856675b08baa4",
-   "source": "The Guardian: Asia-Pacific",
-   "section": "asia-pacific",
-   "summary": "Global energy watchdog forecasts huge rise as US and China turn to fossil fuels to power AI growth agendas The world\u2019s datacentres will create 70% more carbon emissions within the next four years as the US and China turn to fossil fuels to power their AI growth agendas, according to the world\u2019s energy watchdog. \u2026"
-  },
-  {
-   "title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
-   "link": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-19T04:42:52+00:00",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/07ac/live/bcaff6a0-e3cf-11f1-a266-6b47da5e73cc.jpg",
-   "source": "BBC News: Asia",
-   "section": "asia-pacific",
-   "summary": "The meeting comes with challenges as there are things Xi does not appear keen to discuss with Putin and Trump."
-  },
-  {
-   "title": "Malaysians question slow response over \u2018false\u2019 mobile flood warning trial",
-   "link": "https://www.scmp.com/week-asia/health-environment/article/3374998/malaysians-question-slow-response-over-false-mobile-flood-warning-trial",
-   "published": "2026-11-19T04:10:08+00:00",
-   "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/cfa27a78-ddf0-4974-86ad-c072b3eac325_82b27565.jpg?itok=qfC98lHE&v=1795061398",
-   "source": "South China Morning Post: Asia",
-   "section": "asia-pacific",
-   "summary": "Malaysians spent weeks expecting a disaster alert on their phones on Thursday \u2013 only to be told close to midnight on Wednesday that it would not be coming, causing them to question why the communications regulator waited so long to let them know. \u2026"
-  },
-  {
-   "title": "One in four women globally unable to refuse sex within marriage, says UN",
-   "link": "https://www.theguardian.com/global-development/2026/nov/19/women-girls-rights-rape-sexual-violence-africa-marriage-unfpa",
-   "published": "2026-11-19T04:00:16+00:00",
-   "image": "https://i.guim.co.uk/img/media/91c39e6279d80734110ea1274bb82ba750178aca/464_0_4640_3712/master/4640.jpg?width=140&quality=85&auto=format&fit=max&s=e6d08589972906e0a23904745fa60bc8",
-   "source": "The Guardian: World",
-   "section": "africa",
-   "summary": "Almost half of women in west and central Africa cannot withhold consent, with girls worst affected, UNFPA finds One in four women around the world have no power of consent if their husband or partner demands sex, according to a UN report. \u2026"
-  },
-  {
-   "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
-   "link": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-19T02:59:06+00:00",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3333/live/c9ef87a0-e3b5-11f1-ac8e-bf9cbaf16b78.jpg",
-   "source": "BBC News: Business",
-   "section": "business",
-   "summary": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump."
-  },
-  {
-   "title": "Angry over \u2018indignity\u2019, Myanmar to review future ties with Asean",
-   "link": "https://www.scmp.com/news/asia/southeast-asia/article/3374989/angry-over-indignity-myanmar-review-future-ties-asean",
-   "published": "2026-11-19T02:50:26+00:00",
-   "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/19/f80bb65d-29b5-4e33-9823-e28359219efe_c4638693.jpg?itok=53w6MoiO&v=1795056624",
-   "source": "South China Morning Post: Asia",
-   "section": "asia-pacific",
-   "summary": "Myanmar\u2019s military-backed leader Min Aung Hlaing said on Wednesday his administration is reconsidering the country\u2019s relationship with Asean but would continue discussions with its members. \u2026"
   }
  ]
 }
