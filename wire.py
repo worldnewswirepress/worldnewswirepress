@@ -91,7 +91,7 @@ EMAIL = "info@worldnewswirepress.com"
 # Social accounts. Leave a constant empty and its button simply does not show.
 INSTAGRAM = "https://www.instagram.com/worldnewswire/"
 FACEBOOK = "https://www.facebook.com/profile.php?id=100069767259386"
-YOUTUBE = ""   # add the channel URL here when it exists
+YOUTUBE = "https://www.youtube.com/@worldnewswire"
 
 WIRE_WINDOW_HOURS = 72        # wire items older than this drop off
 FETCH_TIMEOUT = 20
