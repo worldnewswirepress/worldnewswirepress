@@ -2,9 +2,9 @@
 
 Rewritten by wire.py on every run. Plain English: which feeds answered on the latest run, which were dropped and why, and which of our stories are being held.
 
-Latest run: 2026-11-21 22:11 UTC. Feeds answering: 35 of 36. Wire items on the site: 795.
+Latest run: 2026-11-22 02:16 UTC. Feeds answering: 35 of 36. Wire items on the site: 869.
 
-Story pages (trial, STORY_PAGES = True): 175 live in docs/s/ (122 written or updated this run, 47 removed because their headline left the wire).
+Story pages (trial, STORY_PAGES = True): 188 live in docs/s/ (162 written or updated this run, 71 removed because their headline left the wire).
 
 | Feed | Section | Result | Items | With photo |
 |---|---|---|---|---|
@@ -41,7 +41,7 @@ Story pages (trial, STORY_PAGES = True): 175 live in docs/s/ (122 written or upd
 | CNBC: World Markets | business | ok | 30 | 0 |
 | Variety | entertainment | ok | 10 | 10 |
 | Deadline | entertainment | ok | 12 | 12 |
-| Religion News Service | faith-culture | ok | 10 | 4 |
+| Religion News Service | faith-culture | ok | 10 | 3 |
 | Christianity Today | faith-culture | ok | 10 | 0 |
 | Vatican News | faith-culture | ok | 50 | 50 |
 
