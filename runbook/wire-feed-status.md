@@ -2,20 +2,20 @@
 
 Rewritten by wire.py on every run. Plain English: which feeds answered on the latest run, which were dropped and why, and which of our stories are being held.
 
-Latest run: 2026-11-23 20:16 UTC. Feeds answering: 35 of 36. Wire items on the site: 1719.
+Latest run: 2026-11-24 04:50 UTC. Feeds answering: 35 of 36. Wire items on the site: 1852.
 
-Story pages (trial, STORY_PAGES = True): 163 live in docs/s/ (163 written or updated this run, 193 removed because their headline left the wire).
+Story pages (trial, STORY_PAGES = True): 189 live in docs/s/ (189 written or updated this run, 138 removed because their headline left the wire).
 
 | Feed | Section | Result | Items | With photo |
 |---|---|---|---|---|
-| BBC News: World | world | ok | 32 | 32 |
-| BBC News: US & Canada | americas | ok | 24 | 24 |
+| BBC News: World | world | ok | 22 | 22 |
+| BBC News: US & Canada | americas | ok | 22 | 22 |
 | BBC News: Latin America | americas | ok | 17 | 17 |
 | BBC News: Europe | europe | ok | 29 | 29 |
-| BBC News: Africa | africa | ok | 29 | 29 |
+| BBC News: Africa | africa | ok | 30 | 30 |
 | BBC News: Middle East | middle-east | ok | 27 | 27 |
-| BBC News: Asia | asia-pacific | ok | 16 | 16 |
-| BBC News: Business | business | ok | 54 | 54 |
+| BBC News: Asia | asia-pacific | ok | 15 | 15 |
+| BBC News: Business | business | ok | 56 | 56 |
 | BBC News: Entertainment & Arts | entertainment | ok | 25 | 25 |
 | Al Jazeera | world | ok | 25 | 0 |
 | The Guardian: World | world | ok | 45 | 45 |
@@ -23,10 +23,10 @@ Story pages (trial, STORY_PAGES = True): 163 live in docs/s/ (163 written or upd
 | The Guardian: Africa | africa | ok | 20 | 20 |
 | The Guardian: Middle East | middle-east | ok | 20 | 20 |
 | The Guardian: Asia-Pacific | asia-pacific | ok | 20 | 20 |
-| NPR: World | world | ok | 10 | 4 |
+| NPR: World | world | ok | 10 | 3 |
 | DW: Top Stories | world | ok | 21 | 0 |
 | DW: Business | business | ok | 20 | 0 |
-| France 24: World | world | ok | 24 | 22 |
+| France 24: World | world | ok | 24 | 23 |
 | France 24: Africa | africa | ok | 30 | 30 |
 | France 24: Middle East | middle-east | ok | 30 | 30 |
 | CBC News: World | world | dropped (TimeoutError) | 0 | 0 |
@@ -41,7 +41,7 @@ Story pages (trial, STORY_PAGES = True): 163 live in docs/s/ (163 written or upd
 | CNBC: World Markets | business | ok | 30 | 0 |
 | Variety | entertainment | ok | 10 | 10 |
 | Deadline | entertainment | ok | 12 | 12 |
-| Religion News Service | faith-culture | ok | 10 | 1 |
+| Religion News Service | faith-culture | ok | 10 | 2 |
 | Christianity Today | faith-culture | ok | 10 | 0 |
 | Vatican News | faith-culture | ok | 50 | 49 |
 
