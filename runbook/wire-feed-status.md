@@ -2,21 +2,21 @@
 
 Rewritten by wire.py on every run. Plain English: which feeds answered on the latest run, which were dropped and why, and which of our stories are being held.
 
-Latest run: 2026-11-24 15:54 UTC. Feeds answering: 35 of 36. Wire items on the site: 1961.
+Latest run: 2026-11-25 00:46 UTC. Feeds answering: 35 of 36. Wire items on the site: 1998.
 
-Story pages (trial, STORY_PAGES = True): 149 live in docs/s/ (149 written or updated this run, 188 removed because their headline left the wire).
+Story pages (trial, STORY_PAGES = True): 176 live in docs/s/ (176 written or updated this run, 131 removed because their headline left the wire).
 
 | Feed | Section | Result | Items | With photo |
 |---|---|---|---|---|
-| BBC News: World | world | ok | 27 | 27 |
-| BBC News: US & Canada | americas | ok | 23 | 23 |
+| BBC News: World | world | ok | 31 | 31 |
+| BBC News: US & Canada | americas | ok | 24 | 24 |
 | BBC News: Latin America | americas | ok | 17 | 17 |
 | BBC News: Europe | europe | ok | 25 | 25 |
 | BBC News: Africa | africa | ok | 30 | 30 |
 | BBC News: Middle East | middle-east | ok | 26 | 26 |
-| BBC News: Asia | asia-pacific | ok | 16 | 16 |
-| BBC News: Business | business | ok | 58 | 58 |
-| BBC News: Entertainment & Arts | entertainment | ok | 17 | 17 |
+| BBC News: Asia | asia-pacific | ok | 17 | 17 |
+| BBC News: Business | business | ok | 60 | 60 |
+| BBC News: Entertainment & Arts | entertainment | ok | 21 | 21 |
 | Al Jazeera | world | ok | 25 | 0 |
 | The Guardian: World | world | ok | 45 | 45 |
 | The Guardian: Americas | americas | ok | 20 | 20 |
@@ -26,7 +26,7 @@ Story pages (trial, STORY_PAGES = True): 149 live in docs/s/ (149 written or upd
 | NPR: World | world | ok | 10 | 4 |
 | DW: Top Stories | world | ok | 21 | 0 |
 | DW: Business | business | ok | 20 | 0 |
-| France 24: World | world | ok | 24 | 23 |
+| France 24: World | world | ok | 24 | 24 |
 | France 24: Africa | africa | ok | 30 | 30 |
 | France 24: Middle East | middle-east | ok | 30 | 30 |
 | CBC News: World | world | dropped (TimeoutError) | 0 | 0 |
@@ -36,12 +36,12 @@ Story pages (trial, STORY_PAGES = True): 149 live in docs/s/ (149 written or upd
 | South China Morning Post: World | world | ok | 50 | 50 |
 | South China Morning Post: Asia | asia-pacific | ok | 50 | 50 |
 | The Times of India: World | world | ok | 20 | 20 |
-| The Times of India: Top Stories | asia-pacific | ok | 45 | 0 |
+| The Times of India: Top Stories | asia-pacific | ok | 46 | 0 |
 | The Japan Times | asia-pacific | ok | 30 | 30 |
 | CNBC: World Markets | business | ok | 30 | 0 |
 | Variety | entertainment | ok | 10 | 10 |
 | Deadline | entertainment | ok | 12 | 12 |
-| Religion News Service | faith-culture | ok | 10 | 4 |
+| Religion News Service | faith-culture | ok | 10 | 6 |
 | Christianity Today | faith-culture | ok | 10 | 0 |
 | Vatican News | faith-culture | ok | 50 | 49 |
 
