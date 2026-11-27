@@ -2,28 +2,28 @@
 
 Rewritten by wire.py on every run. Plain English: which feeds answered on the latest run, which were dropped and why, and which of our stories are being held.
 
-Latest run: 2026-11-27 05:04 UTC. Feeds answering: 35 of 36. Wire items on the site: 2235.
+Latest run: 2026-11-27 15:07 UTC. Feeds answering: 35 of 36. Wire items on the site: 2230.
 
-Story pages (trial, STORY_PAGES = True): 203 live in docs/s/ (186 written or updated this run, 117 removed because their headline left the wire).
+Story pages (trial, STORY_PAGES = True): 160 live in docs/s/ (158 written or updated this run, 196 removed because their headline left the wire).
 
 | Feed | Section | Result | Items | With photo |
 |---|---|---|---|---|
-| BBC News: World | world | ok | 31 | 31 |
-| BBC News: US & Canada | americas | ok | 23 | 23 |
+| BBC News: World | world | ok | 27 | 27 |
+| BBC News: US & Canada | americas | ok | 22 | 22 |
 | BBC News: Latin America | americas | ok | 17 | 17 |
 | BBC News: Europe | europe | ok | 22 | 22 |
-| BBC News: Africa | africa | ok | 31 | 31 |
+| BBC News: Africa | africa | ok | 30 | 30 |
 | BBC News: Middle East | middle-east | ok | 27 | 27 |
 | BBC News: Asia | asia-pacific | ok | 17 | 17 |
-| BBC News: Business | business | ok | 52 | 52 |
-| BBC News: Entertainment & Arts | entertainment | ok | 25 | 25 |
+| BBC News: Business | business | ok | 53 | 53 |
+| BBC News: Entertainment & Arts | entertainment | ok | 27 | 27 |
 | Al Jazeera | world | ok | 25 | 0 |
 | The Guardian: World | world | ok | 45 | 45 |
 | The Guardian: Americas | americas | ok | 20 | 20 |
 | The Guardian: Africa | africa | ok | 20 | 20 |
 | The Guardian: Middle East | middle-east | ok | 20 | 20 |
 | The Guardian: Asia-Pacific | asia-pacific | ok | 20 | 20 |
-| NPR: World | world | ok | 10 | 8 |
+| NPR: World | world | ok | 10 | 7 |
 | DW: Top Stories | world | ok | 21 | 0 |
 | DW: Business | business | ok | 20 | 0 |
 | France 24: World | world | ok | 24 | 24 |
@@ -35,8 +35,8 @@ Story pages (trial, STORY_PAGES = True): 203 live in docs/s/ (186 written or upd
 | ABC News (Australia) | asia-pacific | ok | 25 | 25 |
 | South China Morning Post: World | world | ok | 50 | 50 |
 | South China Morning Post: Asia | asia-pacific | ok | 50 | 50 |
-| The Times of India: World | world | ok | 20 | 19 |
-| The Times of India: Top Stories | asia-pacific | ok | 44 | 0 |
+| The Times of India: World | world | ok | 20 | 20 |
+| The Times of India: Top Stories | asia-pacific | ok | 45 | 0 |
 | The Japan Times | asia-pacific | ok | 30 | 30 |
 | CNBC: World Markets | business | ok | 30 | 0 |
 | Variety | entertainment | ok | 10 | 10 |
