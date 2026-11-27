@@ -2,21 +2,21 @@
 
 Rewritten by wire.py on every run. Plain English: which feeds answered on the latest run, which were dropped and why, and which of our stories are being held.
 
-Latest run: 2026-11-27 15:07 UTC. Feeds answering: 35 of 36. Wire items on the site: 2230.
+Latest run: 2026-11-27 23:28 UTC. Feeds answering: 35 of 36. Wire items on the site: 2211.
 
-Story pages (trial, STORY_PAGES = True): 160 live in docs/s/ (158 written or updated this run, 196 removed because their headline left the wire).
+Story pages (trial, STORY_PAGES = True): 174 live in docs/s/ (174 written or updated this run, 133 removed because their headline left the wire).
 
 | Feed | Section | Result | Items | With photo |
 |---|---|---|---|---|
-| BBC News: World | world | ok | 27 | 27 |
+| BBC News: World | world | ok | 22 | 22 |
 | BBC News: US & Canada | americas | ok | 22 | 22 |
 | BBC News: Latin America | americas | ok | 17 | 17 |
 | BBC News: Europe | europe | ok | 22 | 22 |
-| BBC News: Africa | africa | ok | 30 | 30 |
+| BBC News: Africa | africa | ok | 32 | 32 |
 | BBC News: Middle East | middle-east | ok | 27 | 27 |
 | BBC News: Asia | asia-pacific | ok | 17 | 17 |
 | BBC News: Business | business | ok | 53 | 53 |
-| BBC News: Entertainment & Arts | entertainment | ok | 27 | 27 |
+| BBC News: Entertainment & Arts | entertainment | ok | 19 | 19 |
 | Al Jazeera | world | ok | 25 | 0 |
 | The Guardian: World | world | ok | 45 | 45 |
 | The Guardian: Americas | americas | ok | 20 | 20 |
@@ -40,8 +40,8 @@ Story pages (trial, STORY_PAGES = True): 160 live in docs/s/ (158 written or upd
 | The Japan Times | asia-pacific | ok | 30 | 30 |
 | CNBC: World Markets | business | ok | 30 | 0 |
 | Variety | entertainment | ok | 10 | 10 |
-| Deadline | entertainment | ok | 12 | 12 |
-| Religion News Service | faith-culture | ok | 10 | 6 |
+| Deadline | entertainment | ok | 12 | 11 |
+| Religion News Service | faith-culture | ok | 10 | 8 |
 | Christianity Today | faith-culture | ok | 10 | 0 |
 | Vatican News | faith-culture | ok | 50 | 49 |
 
